@@ -23,7 +23,7 @@
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system for pi.
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
 - 📝 **[inline-yaml](https://github.com/monotykamary/inline-yaml)** - JavaScript/TypeScript YAML Template Literal Syntax Highlighting. Write YAML inside your JS with full editor support.
-- 🔥 **[flame-js](https://github.com/monotykamary/flame-js)** - FLAME-style remote execution for TypeScript with Bun. Distributed computing made simple with Effect.ts internals.
+- 🔥 **[flame-js](https://github.com/monotykamary/flame-js)** - FLAME-style remote execution for TypeScript with Bun. Distributed computing made simple.
 - 🧠 **[nested-modal-transducers](https://github.com/monotykamary/nested-modal-transducers-golang-implementation)** - Nested Modal Transducers in Go, spiced up with XState patterns. State machines meet Go.
 - 🐮 **[cowl](https://github.com/monotykamary/cowl)** - Copy-on-Write cloning for macOS. Fast, efficient filesystem operations.
 - 📡 **[mastra-observer-mailbox](https://github.com/monotykamary/mastra-observer-mailbox)** - Ambient/background agent library for Mastra. Give your AI agents a persistent memory layer.
