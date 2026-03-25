@@ -20,6 +20,7 @@
 ## Featured Projects
 
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
+- 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation for pi, inspired by RLMs. Delegate work to subagents in single, parallel, or chain modes.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system for pi.
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
 - 📝 **[inline-yaml](https://github.com/monotykamary/inline-yaml)** - JavaScript/TypeScript YAML Template Literal Syntax Highlighting. Write YAML inside your JS with full editor support.
