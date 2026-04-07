@@ -23,6 +23,7 @@
 - 🔬 **[pi-autoresearch](https://github.com/monotykamary/pi-autoresearch)** - Autonomous experiment loop extension for pi with worktrees. Optimize code through automated benchmarking.
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation for pi, inspired by RLMs. Delegate work to subagents in single, parallel, or chain modes.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system for pi.
+- 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces for pi. Isolated variations for parallel experiments.
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
 - 📝 **[inline-yaml](https://github.com/monotykamary/inline-yaml)** - JavaScript/TypeScript YAML Template Literal Syntax Highlighting. Write YAML inside your JS with full editor support.
 - 🔥 **[flame-js](https://github.com/monotykamary/flame-js)** - FLAME-style remote execution for TypeScript with Bun. Distributed computing made simple.
