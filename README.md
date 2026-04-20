@@ -29,6 +29,7 @@
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** & **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode as model providers for pi.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
+- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🔄 **[pi-loop](https://github.com/monotykamary/pi-loop)** - Creates and closes a verification loop on a task.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
