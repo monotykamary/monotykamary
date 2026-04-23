@@ -38,6 +38,7 @@
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation, inspired by RLMs. Delegate work in single, parallel, or chain modes.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 - 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
+- 🧪 **[experiment-harness](https://github.com/monotykamary/experiment-harness)** - An experiment harness to do autoresearch on any coding agent.
 
 ### Developer Tools
 
