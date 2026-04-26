@@ -31,6 +31,7 @@
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
 - 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
+- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🔄 **[pi-loop](https://github.com/monotykamary/pi-loop)** - Creates and closes a verification loop on a task.
