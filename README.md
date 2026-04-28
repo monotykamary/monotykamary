@@ -19,10 +19,15 @@
 
 ## Featured Projects
 
+### Standalone Projects
+*Independent tools and frameworks I've built.*
+
+- 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
+- 🧪 **[experiment-harness](https://github.com/monotykamary/experiment-harness)** - An experiment harness to do autoresearch on any coding agent.
+
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
 - ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
 - 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
@@ -42,7 +47,6 @@
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation, inspired by RLMs. Delegate work in single, parallel, or chain modes.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 - 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
-- 🧪 **[experiment-harness](https://github.com/monotykamary/experiment-harness)** - An experiment harness to do autoresearch on any coding agent.
 
 ### Developer Tools
 
