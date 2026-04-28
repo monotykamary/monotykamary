@@ -43,6 +43,7 @@
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
 - 💤 **[pi-lazy-extensions](https://github.com/monotykamary/pi-lazy-extensions)** - Lazy-load pi extensions on demand via a ToolSearch-style proxy tool.
 - 🖱️ **[pi-computer-use-harness](https://github.com/monotykamary/pi-computer-use-harness)** - Control your applications using pi-coding-agent. Fully invisible harness architecture.
+- 🧠 **[pi-reason-harness](https://github.com/monotykamary/pi-reason-harness)** - Recursive self-improving reasoning harness for pi: iterate, verify, improve.
 - 🔬 **[pi-autoresearch](https://github.com/monotykamary/pi-autoresearch)** - Autonomous experiment loop extension with worktrees. Optimize code through automated benchmarking.
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation, inspired by RLMs. Delegate work in single, parallel, or chain modes.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
