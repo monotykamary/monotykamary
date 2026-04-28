@@ -23,7 +23,6 @@
 *Independent tools and frameworks I've built.*
 
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
-- 🧪 **[experiment-harness](https://github.com/monotykamary/experiment-harness)** - An experiment harness to do autoresearch on any coding agent.
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
