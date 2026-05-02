@@ -23,6 +23,7 @@
 *Independent tools and frameworks I've built.*
 
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
+- ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives.
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
