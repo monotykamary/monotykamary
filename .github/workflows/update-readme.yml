@@ -1,0 +1,35 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # daily at 03:00 UTC
+  workflow_dispatch: # manual trigger
+  push:
+    paths:
+      - "scripts/update-readme.mjs"
+      - "scripts/readme-config.json"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Run update script
+        run: node scripts/update-readme.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push if changed
+        run: |
+          git diff --quiet README.md && echo "No changes" && exit 0
+          git add README.md
+          git commit -m "docs(readme): auto-update projects and contributions [skip ci]"
+          git push
