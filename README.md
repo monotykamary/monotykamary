@@ -88,7 +88,7 @@
 - [feat(context-chips): add mise-en-place support for node version switching](https://github.com/warpdotdev/warp/pull/9841) — `warpdotdev/warp`
 - [feat: implement devcontainer stop and down commands](https://github.com/devcontainers/cli/pull/1041) — `devcontainers/cli`
 - [fix(chunker): propagate render errors instead of silently swallowing](https://github.com/pagedjs/pagedjs/pull/330) — `pagedjs/pagedjs`
-- [feat: implement LLM monitoring with langchainrb integration](https://github.com/getsentry/sentry-ruby/pull/2411) — `getsentry/sentry-ruby`
+
 
 ### ✅ Merged Pull Requests
 
