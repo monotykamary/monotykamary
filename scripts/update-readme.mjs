@@ -173,13 +173,31 @@ function generateContributionsSection(openPRs, mergedPRs) {
   }
 
   if (merged.length > 0) {
+    const MERGED_PREVIEW = 20;
     lines.push("### ✅ Merged Pull Requests", "");
-    for (const pr of merged) {
+    const visible = merged.slice(0, MERGED_PREVIEW);
+    const hidden = merged.slice(MERGED_PREVIEW);
+    for (const pr of visible) {
       const repoPath = pr.repository_url.replace(
         "https://api.github.com/repos/",
         "",
       );
       lines.push(`- [${pr.title}](${pr.html_url}) — \`${repoPath}\``);
+    }
+    if (hidden.length > 0) {
+      lines.push("");
+      lines.push("<details>");
+      lines.push(`<summary>Show ${hidden.length} more merged PRs</summary>`);
+      lines.push("");
+      for (const pr of hidden) {
+        const repoPath = pr.repository_url.replace(
+          "https://api.github.com/repos/",
+          "",
+        );
+        lines.push(`- [${pr.title}](${pr.html_url}) — \`${repoPath}\``);
+      }
+      lines.push("");
+      lines.push("</details>");
     }
     lines.push("");
   }

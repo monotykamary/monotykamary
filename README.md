@@ -110,6 +110,10 @@
 - [fix(employee): use latest payout for check-in](https://github.com/dwarvesf/fortress-api/pull/805) — `dwarvesf/fortress-api`
 - [feat: Add Synthetic provider support](https://github.com/steipete/CodexBar/pull/171) — `steipete/CodexBar`
 - [feat: add optional S3 endpoint support](https://github.com/andrii-kryvoviaz/slink/pull/116) — `andrii-kryvoviaz/slink`
+
+<details>
+<summary>Show 173 more merged PRs</summary>
+
 - [chore: update repository name in install script](https://github.com/anomalyco/opentui/pull/503) — `anomalyco/opentui`
 - [fix(server): add Content-Type headers for proxied static assets](https://github.com/anomalyco/opencode/pull/6587) — `anomalyco/opencode`
 - [fix(dsp): correctly extract instruction from signature in GEPA optimizer](https://github.com/ax-llm/ax/pull/466) — `ax-llm/ax`
@@ -283,6 +287,8 @@
 - [Update MySQL to 5.7.12](https://github.com/ScoopInstaller/Scoop/pull/810) — `ScoopInstaller/Scoop`
 - [Update Premake (alpha) to 5.0.0-alpha8](https://github.com/ScoopInstaller/Scoop/pull/811) — `ScoopInstaller/Scoop`
 - [Update Git with OpenSSH to version 2.8.2.windows.1](https://github.com/ScoopInstaller/Scoop/pull/807) — `ScoopInstaller/Scoop`
+
+</details>
 <!-- AUTO-GENERATED:CONTRIBUTIONS:END -->
 
 ## GitHub Activity
