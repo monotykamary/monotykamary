@@ -79,6 +79,40 @@
 - 🐳 **[docker-wscat](https://github.com/monotykamary/docker-wscat)** - Lightweight wscat Docker image based on node:alpine. WebSocket testing in a container.
 - 🖥️ **[dotfiles_i3](https://github.com/monotykamary/dotfiles_i3)** - My i3 window manager configuration. Tiling window management done right.
 
+## Open Source Contributions
+
+### 🔓 Open Pull Requests
+
+- [feat(code-review): entity-level semantic diff in the code review panel](https://github.com/warpdotdev/warp/pull/9917) — `warp`
+- [fix(terminal): cap active block height and skip redundant SumTree rebuilds](https://github.com/warpdotdev/warp/pull/9738) — `warp`
+- [feat(context-chips): add mise-en-place support for node version switching](https://github.com/warpdotdev/warp/pull/9841) — `warp`
+- [feat: implement devcontainer stop and down commands](https://github.com/devcontainers/cli/pull/1041) — `cli`
+- [fix(chunker): propagate render errors instead of silently swallowing](https://github.com/pagedjs/pagedjs/pull/330) — `pagedjs`
+- [feat: implement LLM monitoring with langchainrb integration](https://github.com/getsentry/sentry-ruby/pull/2411) — `sentry-ruby`
+
+### ✅ Recently Merged
+
+- [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `models.dev`
+- [fix(daemon): emit tool_use from tool_execution_start in pi-rpc](https://github.com/nexu-io/open-design/pull/186) — `open-design`
+- [feat(daemon): add pi coding agent adapter](https://github.com/nexu-io/open-design/pull/117) — `open-design`
+- [feat(dashboard): add check run external links and rerun buttons](https://github.com/stylessh/diffkit/pull/164) — `diffkit`
+- [feat(oauth): implement OAuth 2.1 using MCP SDK](https://github.com/nicobailon/pi-mcp-adapter/pull/10) — `pi-mcp-adapter`
+- [feat: core enhancements - introspection, compensating transitions, and cross-machine support](https://github.com/inloopstudio/fosm-rails/pull/4) — `fosm-rails`
+- [fix(crew): respect crew.models config override for agent models](https://github.com/nicobailon/pi-messenger/pull/6) — `pi-messenger`
+- [fix: prevent OAuth race condition causing auth failures](https://github.com/steipete/mcporter/pull/70) — `mcporter`
+- [feat(ai): add OpenAI-compatible provider support](https://github.com/SuperCmdLabs/SuperCmd/pull/5) — `SuperCmd`
+- [feat: add ElevenLabs v3 TTS support](https://github.com/SuperCmdLabs/SuperCmd/pull/4) — `SuperCmd`
+- [feat: add fireworks minimax m2.5 model and fix m2.1 cache pricing](https://github.com/anomalyco/models.dev/pull/911) — `models.dev`
+- [feat: add optional S3 endpoint support](https://github.com/andrii-kryvoviaz/slink/pull/116) — `slink`
+- [fix(dsp): correctly extract instruction from signature in GEPA optimizer](https://github.com/ax-llm/ax/pull/466) — `ax`
+- [feat(openai): add gpt-5.1 model](https://github.com/anomalyco/models.dev/pull/380) — `models.dev`
+- [feat(ace): implement agentic context engineering](https://github.com/ax-llm/ax/pull/386) — `ax`
+- [feat(mcp): OAuth 2.1 for HTTP/SSE transports + Notion OAuth examples](https://github.com/ax-llm/ax/pull/340) — `ax`
+- [feat: Implement invite-only registration](https://github.com/latitude-dev/latitude-llm/pull/1258) — `latitude-llm`
+- [refactor: Make reasoning effort setting model independent](https://github.com/cline/cline/pull/2966) — `cline`
+- [feat: add artifacts UI for shared links](https://github.com/danny-avila/LibreChat/pull/3940) — `LibreChat`
+- [feat: implement Go port of obsidian-compiler for improved performance](https://github.com/dwarvesf/memo.d.foundation/pull/244) — `memo.d.foundation`
+
 ## GitHub Activity
 
 ![GitHub Contribution Graph](https://ghchart.rshah.org/monotykamary)
