@@ -15,7 +15,7 @@
 ![macOS](https://img.shields.io/badge/-macOS-000000?style=flat-square&logo=apple&logoColor=white)
 ![Neovim](https://img.shields.io/badge/-Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
 
-> I do open source. Building tools that make mostly my life easier.
+> I do open source while doing dad stuff. Building tools that make mostly my life easier.
 
 <!-- AUTO-GENERATED:PROJECTS:START -->
 ## Featured Projects
