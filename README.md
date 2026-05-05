@@ -23,7 +23,6 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
-- ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
 
 ### pi Extensions
@@ -55,6 +54,7 @@
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 
 ### Developer Tools
+- ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
 - 🔥 **[flame-js](https://github.com/monotykamary/flame-js)** - FLAME-style remote execution for TypeScript with Bun, Effect.ts internals. Distributed computing made simple.
 - 🐮 **[cowl](https://github.com/monotykamary/cowl)** - Copy-on-Write cloning for macOS. Fast, efficient filesystem operations.
