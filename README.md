@@ -23,30 +23,31 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
+- ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
+- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
+- 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
+- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
+- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
 - 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
-- 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
-- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
-- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
-- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation, inspired by RLMs. Delegate work in single, parallel, or chain modes.
 - 🔄 **[pi-loop](https://github.com/monotykamary/pi-loop)** - Creates and closes a verification loop on a task.
 - 🖼️ **[pi-warp-kitty-images](https://github.com/monotykamary/pi-warp-kitty-images)** - Enable Kitty image protocol for Warp terminal in pi's TUI.
 - 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
-- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
 - 🧠 **[pi-reason-harness](https://github.com/monotykamary/pi-reason-harness)** - Recursive self-improving reasoning harness for pi: iterate, verify, improve.
 - 💤 **[pi-lazy-extensions](https://github.com/monotykamary/pi-lazy-extensions)** - Lazy-load pi extensions on demand via a ToolSearch-style proxy tool.
@@ -54,7 +55,6 @@
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 
 ### Developer Tools
-- ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
 - 🔥 **[flame-js](https://github.com/monotykamary/flame-js)** - FLAME-style remote execution for TypeScript with Bun, Effect.ts internals. Distributed computing made simple.
 - 🐮 **[cowl](https://github.com/monotykamary/cowl)** - Copy-on-Write cloning for macOS. Fast, efficient filesystem operations.
@@ -90,6 +90,8 @@
 
 ### ✅ Merged Pull Requests
 
+- [feat(daemon): add model name to pi initial status and RPC abort on cancel](https://github.com/nexu-io/open-design/pull/618) — `nexu-io/open-design`
+- [fix(daemon): remove --no-session from pi adapter to persist session files](https://github.com/nexu-io/open-design/pull/557) — `nexu-io/open-design`
 - [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `anomalyco/models.dev`
 - [fix(daemon): emit tool_use from tool_execution_start in pi-rpc](https://github.com/nexu-io/open-design/pull/186) — `nexu-io/open-design`
 - [feat(daemon): add pi coding agent adapter](https://github.com/nexu-io/open-design/pull/117) — `nexu-io/open-design`
@@ -98,7 +100,7 @@
 - [feat: core enhancements - introspection, compensating transitions, and cross-machine support](https://github.com/inloopstudio/fosm-rails/pull/4) — `inloopstudio/fosm-rails`
 - [fix(crew): respect crew.models config override for agent models](https://github.com/nicobailon/pi-messenger/pull/6) — `nicobailon/pi-messenger`
 - [fix(feed): sanitize multiline previews to prevent overlay layout corruption](https://github.com/nicobailon/pi-messenger/pull/5) — `nicobailon/pi-messenger`
-- [fix: prevent OAuth race condition causing auth failures](https://github.com/steipete/mcporter/pull/70) — `steipete/mcporter`
+- [fix: prevent OAuth race condition causing auth failures](https://github.com/openclaw/mcporter/pull/70) — `openclaw/mcporter`
 - [fix(whisper): resolve overlay positioning and click-through issues](https://github.com/SuperCmdLabs/SuperCmd/pull/39) — `SuperCmdLabs/SuperCmd`
 - [feat(tts): add ElevenLabs custom voice support](https://github.com/SuperCmdLabs/SuperCmd/pull/8) — `SuperCmdLabs/SuperCmd`
 - [feat(ai): add OpenAI-compatible provider support](https://github.com/SuperCmdLabs/SuperCmd/pull/5) — `SuperCmdLabs/SuperCmd`
@@ -108,12 +110,12 @@
 - [fix: ensure kimi-for-coding plan has thinking on by default for k2p5](https://github.com/anomalyco/opencode/pull/12147) — `anomalyco/opencode`
 - [feat(synthetic): update Kimi K2.5 model configuration](https://github.com/anomalyco/models.dev/pull/747) — `anomalyco/models.dev`
 - [fix(employee): use latest payout for check-in](https://github.com/dwarvesf/fortress-api/pull/805) — `dwarvesf/fortress-api`
-- [feat: Add Synthetic provider support](https://github.com/steipete/CodexBar/pull/171) — `steipete/CodexBar`
-- [feat: add optional S3 endpoint support](https://github.com/andrii-kryvoviaz/slink/pull/116) — `andrii-kryvoviaz/slink`
 
 <details>
-<summary>Show 173 more merged PRs</summary>
+<summary>Show 175 more merged PRs</summary>
 
+- [feat: Add Synthetic provider support](https://github.com/steipete/CodexBar/pull/171) — `steipete/CodexBar`
+- [feat: add optional S3 endpoint support](https://github.com/andrii-kryvoviaz/slink/pull/116) — `andrii-kryvoviaz/slink`
 - [chore: update repository name in install script](https://github.com/anomalyco/opentui/pull/503) — `anomalyco/opentui`
 - [fix(server): add Content-Type headers for proxied static assets](https://github.com/anomalyco/opencode/pull/6587) — `anomalyco/opencode`
 - [fix(dsp): correctly extract instruction from signature in GEPA optimizer](https://github.com/ax-llm/ax/pull/466) — `ax-llm/ax`
