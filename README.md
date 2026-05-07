@@ -91,6 +91,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [feat(daemon): close pi adapter parity gaps — imagePaths, extraAllowedDirs, error events, sendAgentEvent routing](https://github.com/nexu-io/open-design/pull/763) — `nexu-io/open-design`
 - [feat(daemon): add model name to pi initial status and RPC abort on cancel](https://github.com/nexu-io/open-design/pull/618) — `nexu-io/open-design`
 - [fix(daemon): remove --no-session from pi adapter to persist session files](https://github.com/nexu-io/open-design/pull/557) — `nexu-io/open-design`
 - [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `anomalyco/models.dev`
@@ -110,11 +111,11 @@
 - [feat: add fireworks minimax m2.5 model and fix m2.1 cache pricing](https://github.com/anomalyco/models.dev/pull/911) — `anomalyco/models.dev`
 - [fix: ensure kimi-for-coding plan has thinking on by default for k2p5](https://github.com/anomalyco/opencode/pull/12147) — `anomalyco/opencode`
 - [feat(synthetic): update Kimi K2.5 model configuration](https://github.com/anomalyco/models.dev/pull/747) — `anomalyco/models.dev`
-- [fix(employee): use latest payout for check-in](https://github.com/dwarvesf/fortress-api/pull/805) — `dwarvesf/fortress-api`
 
 <details>
-<summary>Show 175 more merged PRs</summary>
+<summary>Show 176 more merged PRs</summary>
 
+- [fix(employee): use latest payout for check-in](https://github.com/dwarvesf/fortress-api/pull/805) — `dwarvesf/fortress-api`
 - [feat: Add Synthetic provider support](https://github.com/steipete/CodexBar/pull/171) — `steipete/CodexBar`
 - [feat: add optional S3 endpoint support](https://github.com/andrii-kryvoviaz/slink/pull/116) — `andrii-kryvoviaz/slink`
 - [chore: update repository name in install script](https://github.com/anomalyco/opentui/pull/503) — `anomalyco/opentui`
