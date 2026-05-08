@@ -29,6 +29,7 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
+- 🔌 **[pi-invisible-continue](https://github.com/monotykamary/pi-invisible-continue)** - Invisible session continuation for pi — resume the agentic loop without sending ANY prompt the LLM can see. Uses pi.sendMessage() custom-type filter trick.
 - 💤 **[pi-lazy-extensions](https://github.com/monotykamary/pi-lazy-extensions)** - Lazy-load pi extensions on demand via a ToolSearch-style proxy tool.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
 - 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
