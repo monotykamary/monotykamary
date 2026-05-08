@@ -85,6 +85,7 @@
 
 ### 🔓 Open Pull Requests
 
+- [(fix) correct settings toggle knob alignment](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 - [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
 - [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
 - [feat(code-review): entity-level semantic diff in the code review panel](https://github.com/warpdotdev/warp/pull/9917) — `warpdotdev/warp`
