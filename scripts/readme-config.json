@@ -7,7 +7,7 @@
       "name": "Standalone Projects",
       "description": "Independent tools and frameworks I've built.",
       "defaultEmoji": "📦",
-      "repos": ["openmux", "quickbeam-js"]
+      "repos": ["openmux", "quickbeam-js", "folio"]
     },
     {
       "id": "pi-extensions",
