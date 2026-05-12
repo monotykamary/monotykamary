@@ -31,14 +31,16 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
-- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
+- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
+- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
+- ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
+- ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
+- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
+- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
-- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
-- ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
 - 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
 - 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - 🔌 **[pi-invisible-continue](https://github.com/monotykamary/pi-invisible-continue)** - Invisible session continuation for pi; resume without sending any prompt
@@ -55,9 +57,7 @@
 - 🔌 **[pi-double-esc](https://github.com/monotykamary/pi-double-esc)** - Prevent accidental Escape from aborting the LLM — requires double-press to interrupt while streaming
 - 🔬 **[pi-autoresearch](https://github.com/monotykamary/pi-autoresearch)** - Autonomous experiment loop extension with worktrees. Optimize code through automated benchmarking.
 - 🖼️ **[pi-warp-kitty-images](https://github.com/monotykamary/pi-warp-kitty-images)** - Enable Kitty image protocol for Warp terminal in pi's TUI.
-- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
-- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
 
 ### Developer Tools
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
@@ -87,9 +87,6 @@
 
 ### 🔓 Open Pull Requests
 
-- [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
-- [fix(native): update FluidAudio 0.12.4 → 0.14.4 for Swift 6.3 compatibility](https://github.com/SuperCmdLabs/SuperCmd/pull/377) — `SuperCmdLabs/SuperCmd`
-- [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
 - [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
 - [feat(code-review): entity-level semantic diff in the code review panel](https://github.com/warpdotdev/warp/pull/9917) — `warpdotdev/warp`
 - [fix(terminal): cap active block height and skip redundant SumTree rebuilds](https://github.com/warpdotdev/warp/pull/9738) — `warpdotdev/warp`
@@ -99,6 +96,9 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix(native): update FluidAudio 0.12.4 → 0.14.4 for Swift 6.3 compatibility](https://github.com/SuperCmdLabs/SuperCmd/pull/377) — `SuperCmdLabs/SuperCmd`
+- [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
+- [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 - [fix: replace prepare with prepack to fix git install](https://github.com/mattleong/pi-code-previews/pull/8) — `mattleong/pi-code-previews`
 - [fix(lifecycle): run deferred side effects directly after commit](https://github.com/inloopstudio/fosm-rails/pull/5) — `inloopstudio/fosm-rails`
 - [feat(daemon): close pi adapter parity gaps — imagePaths, extraAllowedDirs, error events, sendAgentEvent routing](https://github.com/nexu-io/open-design/pull/763) — `nexu-io/open-design`
@@ -116,13 +116,13 @@
 - [fix(whisper): resolve overlay positioning and click-through issues](https://github.com/SuperCmdLabs/SuperCmd/pull/39) — `SuperCmdLabs/SuperCmd`
 - [feat(tts): add ElevenLabs custom voice support](https://github.com/SuperCmdLabs/SuperCmd/pull/8) — `SuperCmdLabs/SuperCmd`
 - [feat(ai): add OpenAI-compatible provider support](https://github.com/SuperCmdLabs/SuperCmd/pull/5) — `SuperCmdLabs/SuperCmd`
+
+<details>
+<summary>Show 181 more merged PRs</summary>
+
 - [feat: add ElevenLabs v3 TTS support](https://github.com/SuperCmdLabs/SuperCmd/pull/4) — `SuperCmdLabs/SuperCmd`
 - [chore(fireworks-ai): remove deprecated serverless models](https://github.com/anomalyco/models.dev/pull/946) — `anomalyco/models.dev`
 - [feat: add fireworks minimax m2.5 model and fix m2.1 cache pricing](https://github.com/anomalyco/models.dev/pull/911) — `anomalyco/models.dev`
-
-<details>
-<summary>Show 178 more merged PRs</summary>
-
 - [fix: ensure kimi-for-coding plan has thinking on by default for k2p5](https://github.com/anomalyco/opencode/pull/12147) — `anomalyco/opencode`
 - [feat(synthetic): update Kimi K2.5 model configuration](https://github.com/anomalyco/models.dev/pull/747) — `anomalyco/models.dev`
 - [fix(employee): use latest payout for check-in](https://github.com/dwarvesf/fortress-api/pull/805) — `dwarvesf/fortress-api`
