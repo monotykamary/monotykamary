@@ -24,19 +24,19 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
-- 📦 **[folio](https://github.com/monotykamary/folio)** - Book PDF pagination using @chenglou/pretext for text measurement and Chrome's native page breaking. Replaces Paged.js.
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
+- 📦 **[folio](https://github.com/monotykamary/folio)** - Book PDF pagination using @chenglou/pretext for text measurement and Chrome's native page breaking. Replaces Paged.js.
 - ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
-- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
-- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
 - 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
+- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
+- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
+- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
