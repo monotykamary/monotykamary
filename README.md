@@ -31,7 +31,7 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- 🔌 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
+- 🔇 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
 - 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation, inspired by RLMs. Delegate work in single, parallel, or chain modes.
 - 🔌 **[pi-morph](https://github.com/monotykamary/pi-morph)** - Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction
