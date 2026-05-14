@@ -87,7 +87,6 @@
 
 ### 🔓 Open Pull Requests
 
-- [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
 - [feat(code-review): entity-level semantic diff in the code review panel](https://github.com/warpdotdev/warp/pull/9917) — `warpdotdev/warp`
 - [fix(terminal): cap active block height and skip redundant SumTree rebuilds](https://github.com/warpdotdev/warp/pull/9738) — `warpdotdev/warp`
 - [feat(context-chips): add mise-en-place support for node version switching](https://github.com/warpdotdev/warp/pull/9841) — `warpdotdev/warp`
@@ -96,6 +95,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
 - [fix(native): update FluidAudio 0.12.4 → 0.14.4 for Swift 6.3 compatibility](https://github.com/SuperCmdLabs/SuperCmd/pull/377) — `SuperCmdLabs/SuperCmd`
 - [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
 - [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
@@ -115,11 +115,11 @@
 - [fix: prevent OAuth race condition causing auth failures](https://github.com/openclaw/mcporter/pull/70) — `openclaw/mcporter`
 - [fix(whisper): resolve overlay positioning and click-through issues](https://github.com/SuperCmdLabs/SuperCmd/pull/39) — `SuperCmdLabs/SuperCmd`
 - [feat(tts): add ElevenLabs custom voice support](https://github.com/SuperCmdLabs/SuperCmd/pull/8) — `SuperCmdLabs/SuperCmd`
-- [feat(ai): add OpenAI-compatible provider support](https://github.com/SuperCmdLabs/SuperCmd/pull/5) — `SuperCmdLabs/SuperCmd`
 
 <details>
-<summary>Show 181 more merged PRs</summary>
+<summary>Show 182 more merged PRs</summary>
 
+- [feat(ai): add OpenAI-compatible provider support](https://github.com/SuperCmdLabs/SuperCmd/pull/5) — `SuperCmdLabs/SuperCmd`
 - [feat: add ElevenLabs v3 TTS support](https://github.com/SuperCmdLabs/SuperCmd/pull/4) — `SuperCmdLabs/SuperCmd`
 - [chore(fireworks-ai): remove deprecated serverless models](https://github.com/anomalyco/models.dev/pull/946) — `anomalyco/models.dev`
 - [feat: add fireworks minimax m2.5 model and fix m2.1 cache pricing](https://github.com/anomalyco/models.dev/pull/911) — `anomalyco/models.dev`
