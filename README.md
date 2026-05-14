@@ -31,39 +31,40 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
-- ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
-- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
-- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
-- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
-- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
-- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
-- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
-- 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
-- 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
-- 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- 🔌 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
 - 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
-- 🔌 **[pi-invisible-continue](https://github.com/monotykamary/pi-invisible-continue)** - Invisible session continuation for pi; resume without sending any prompt
-- 💤 **[pi-lazy-extensions](https://github.com/monotykamary/pi-lazy-extensions)** - Lazy-load pi extensions on demand via a ToolSearch-style proxy tool.
-- 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
-- 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
-- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
-- 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation, inspired by RLMs. Delegate work in single, parallel, or chain modes.
-- 🧠 **[pi-reason-harness](https://github.com/monotykamary/pi-reason-harness)** - Recursive self-improving reasoning harness for pi: iterate, verify, improve.
 - 🔌 **[pi-morph](https://github.com/monotykamary/pi-morph)** - Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction
-- 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 - 🔄 **[pi-loop](https://github.com/monotykamary/pi-loop)** - Creates and closes a verification loop on a task.
-- 🔌 **[pi-double-esc](https://github.com/monotykamary/pi-double-esc)** - Prevent accidental Escape from aborting the LLM — requires double-press to interrupt while streaming
 - 🔬 **[pi-autoresearch](https://github.com/monotykamary/pi-autoresearch)** - Autonomous experiment loop extension with worktrees. Optimize code through automated benchmarking.
+- 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
+- ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
+- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
+- 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
 - 🖼️ **[pi-warp-kitty-images](https://github.com/monotykamary/pi-warp-kitty-images)** - Enable Kitty image protocol for Warp terminal in pi's TUI.
+- 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
+- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
+- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
+- 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
+- 🧠 **[pi-reason-harness](https://github.com/monotykamary/pi-reason-harness)** - Recursive self-improving reasoning harness for pi: iterate, verify, improve.
+- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
+- 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
+- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
+- 💤 **[pi-lazy-extensions](https://github.com/monotykamary/pi-lazy-extensions)** - Lazy-load pi extensions on demand via a ToolSearch-style proxy tool.
+- 🔌 **[pi-invisible-continue](https://github.com/monotykamary/pi-invisible-continue)** - Invisible session continuation for pi; resume without sending any prompt
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
+- 🔌 **[pi-double-esc](https://github.com/monotykamary/pi-double-esc)** - Prevent accidental Escape from aborting the LLM — requires double-press to interrupt while streaming
+- 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
+- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
+- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
+- 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 
 ### Developer Tools
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
+- 📑 **[tab-flow-chrome](https://github.com/monotykamary/tab-flow-chrome)** - Chrome extension for managing tabs with workflow automation, dark theme support, and smart organization features.
 - 🔥 **[flame-js](https://github.com/monotykamary/flame-js)** - FLAME-style remote execution for TypeScript with Bun, Effect.ts internals. Distributed computing made simple.
 - 🐮 **[cowl](https://github.com/monotykamary/cowl)** - Copy-on-Write cloning for macOS. Fast, efficient filesystem operations.
-- 📑 **[tab-flow-chrome](https://github.com/monotykamary/tab-flow-chrome)** - Chrome extension for managing tabs with workflow automation, dark theme support, and smart organization features.
 - 🌐 **[grpc-reverse-proxy](https://github.com/monotykamary/grpc-reverse-proxy)** - A lightweight reverse proxy for gRPC services.
 - 📝 **[inline-yaml](https://github.com/monotykamary/inline-yaml)** - JavaScript/TypeScript YAML Template Literal Syntax Highlighting. Write YAML inside your JS with full editor support.
 - 🧠 **[nested-modal-transducers-golang-implementation](https://github.com/monotykamary/nested-modal-transducers-golang-implementation)** - Nested Modal Transducers in Go, spiced up with XState patterns. State machines meet Go.
