@@ -31,13 +31,13 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
+- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - 🔌 **[pi-autoresearch-harness](https://github.com/monotykamary/pi-autoresearch-harness)** - Autonomous experiment loop extension for pi with worktrees as a harness version
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
-- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
 - 🔌 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
 - 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
