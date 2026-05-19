@@ -31,33 +31,33 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
-- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
-- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
-- 🔌 **[pi-autoresearch-harness](https://github.com/monotykamary/pi-autoresearch-harness)** - Autonomous experiment loop extension for pi with worktrees as a harness version
-- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
-- 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
+- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
+- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
+- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
+- 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
+- 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
+- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
+- 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
+- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
+- 🔌 **[pi-autoresearch-harness](https://github.com/monotykamary/pi-autoresearch-harness)** - Autonomous experiment loop extension for pi with worktrees as a harness version
 - 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
 - 🔌 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
 - 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
 - 🔌 **[pi-morph](https://github.com/monotykamary/pi-morph)** - Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation, inspired by RLMs. Delegate work in single, parallel, or chain modes.
-- 💤 **[pi-lazy-extensions](https://github.com/monotykamary/pi-lazy-extensions)** - Lazy-load pi extensions on demand via a ToolSearch-style proxy tool.
 - 🔌 **[pi-invisible-continue](https://github.com/monotykamary/pi-invisible-continue)** - Invisible session continuation for pi; resume without sending any prompt
 - 🔌 **[pi-double-esc](https://github.com/monotykamary/pi-double-esc)** - Prevent accidental Escape from aborting the LLM — requires double-press to interrupt while streaming
 - 🖼️ **[pi-warp-kitty-images](https://github.com/monotykamary/pi-warp-kitty-images)** - Enable Kitty image protocol for Warp terminal in pi's TUI.
+- 💤 **[pi-lazy-extensions](https://github.com/monotykamary/pi-lazy-extensions)** - Lazy-load pi extensions on demand via a ToolSearch-style proxy tool.
 - 🔄 **[pi-loop](https://github.com/monotykamary/pi-loop)** - Creates and closes a verification loop on a task.
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🧠 **[pi-reason-harness](https://github.com/monotykamary/pi-reason-harness)** - Recursive self-improving reasoning harness for pi: iterate, verify, improve.
-- 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
-- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
-- 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
-- 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
-- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 
 ### Developer Tools
@@ -89,8 +89,6 @@
 ### 🔓 Open Pull Requests
 
 - [fix: prevent re-entrant event loop hang in main process (18s freeze)](https://github.com/SuperCmdLabs/SuperCmd/pull/388) — `SuperCmdLabs/SuperCmd`
-- [fix(diff): remove uncolored gap at right edge of diff background](https://github.com/mattleong/pi-code-previews/pull/13) — `mattleong/pi-code-previews`
-- [fix(i18n): restore structural parity across all 9 locales](https://github.com/SuperCmdLabs/SuperCmd/pull/403) — `SuperCmdLabs/SuperCmd`
 - [feat(code-review): entity-level semantic diff in the code review panel](https://github.com/warpdotdev/warp/pull/9917) — `warpdotdev/warp`
 - [fix(terminal): cap active block height and skip redundant SumTree rebuilds](https://github.com/warpdotdev/warp/pull/9738) — `warpdotdev/warp`
 - [feat(context-chips): add mise-en-place support for node version switching](https://github.com/warpdotdev/warp/pull/9841) — `warpdotdev/warp`
@@ -99,6 +97,8 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix(i18n): restore structural parity across all 9 locales](https://github.com/SuperCmdLabs/SuperCmd/pull/403) — `SuperCmdLabs/SuperCmd`
+- [fix(diff): remove uncolored gap at right edge of diff background](https://github.com/mattleong/pi-code-previews/pull/13) — `mattleong/pi-code-previews`
 - [fix: correct searchEntries arg order and add missing bashExecution normalization](https://github.com/sting8k/pi-vcc/pull/8) — `sting8k/pi-vcc`
 - [fix(neuralwatt): sync context window and output limits with upstream API](https://github.com/anomalyco/models.dev/pull/1792) — `anomalyco/models.dev`
 - [feat: accept discord_username from caller for office check-in](https://github.com/dwarvesf/fortress-api/pull/807) — `dwarvesf/fortress-api`
@@ -117,12 +117,12 @@
 - [feat(dashboard): add check run external links and rerun buttons](https://github.com/stylessh/diffkit/pull/164) — `stylessh/diffkit`
 - [feat(oauth): implement OAuth 2.1 using MCP SDK](https://github.com/nicobailon/pi-mcp-adapter/pull/10) — `nicobailon/pi-mcp-adapter`
 - [feat: core enhancements - introspection, compensating transitions, and cross-machine support](https://github.com/inloopstudio/fosm-rails/pull/4) — `inloopstudio/fosm-rails`
-- [fix(crew): respect crew.models config override for agent models](https://github.com/nicobailon/pi-messenger/pull/6) — `nicobailon/pi-messenger`
-- [fix(feed): sanitize multiline previews to prevent overlay layout corruption](https://github.com/nicobailon/pi-messenger/pull/5) — `nicobailon/pi-messenger`
 
 <details>
-<summary>Show 185 more merged PRs</summary>
+<summary>Show 187 more merged PRs</summary>
 
+- [fix(crew): respect crew.models config override for agent models](https://github.com/nicobailon/pi-messenger/pull/6) — `nicobailon/pi-messenger`
+- [fix(feed): sanitize multiline previews to prevent overlay layout corruption](https://github.com/nicobailon/pi-messenger/pull/5) — `nicobailon/pi-messenger`
 - [fix: prevent OAuth race condition causing auth failures](https://github.com/openclaw/mcporter/pull/70) — `openclaw/mcporter`
 - [fix(whisper): resolve overlay positioning and click-through issues](https://github.com/SuperCmdLabs/SuperCmd/pull/39) — `SuperCmdLabs/SuperCmd`
 - [feat(tts): add ElevenLabs custom voice support](https://github.com/SuperCmdLabs/SuperCmd/pull/8) — `SuperCmdLabs/SuperCmd`
