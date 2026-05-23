@@ -31,19 +31,19 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
-- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
-- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
+- 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
+- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
+- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
+- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
+- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
-- 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 - 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
-- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🔌 **[pi-autoresearch-harness](https://github.com/monotykamary/pi-autoresearch-harness)** - Autonomous experiment loop extension for pi with worktrees as a harness version
 - 🔌 **[pi-morph](https://github.com/monotykamary/pi-morph)** - Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction
 - 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
@@ -97,6 +97,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix(neuralwatt): update Qwen3.6 pricing to match API](https://github.com/anomalyco/models.dev/pull/1834) — `anomalyco/models.dev`
 - [fix(i18n): restore structural parity across all 9 locales](https://github.com/SuperCmdLabs/SuperCmd/pull/403) — `SuperCmdLabs/SuperCmd`
 - [fix(diff): remove uncolored gap at right edge of diff background](https://github.com/mattleong/pi-code-previews/pull/13) — `mattleong/pi-code-previews`
 - [fix: correct searchEntries arg order and add missing bashExecution normalization](https://github.com/sting8k/pi-vcc/pull/8) — `sting8k/pi-vcc`
@@ -116,11 +117,11 @@
 - [feat(daemon): add pi coding agent adapter](https://github.com/nexu-io/open-design/pull/117) — `nexu-io/open-design`
 - [feat(dashboard): add check run external links and rerun buttons](https://github.com/stylessh/diffkit/pull/164) — `stylessh/diffkit`
 - [feat(oauth): implement OAuth 2.1 using MCP SDK](https://github.com/nicobailon/pi-mcp-adapter/pull/10) — `nicobailon/pi-mcp-adapter`
-- [feat: core enhancements - introspection, compensating transitions, and cross-machine support](https://github.com/inloopstudio/fosm-rails/pull/4) — `inloopstudio/fosm-rails`
 
 <details>
-<summary>Show 187 more merged PRs</summary>
+<summary>Show 188 more merged PRs</summary>
 
+- [feat: core enhancements - introspection, compensating transitions, and cross-machine support](https://github.com/inloopstudio/fosm-rails/pull/4) — `inloopstudio/fosm-rails`
 - [fix(crew): respect crew.models config override for agent models](https://github.com/nicobailon/pi-messenger/pull/6) — `nicobailon/pi-messenger`
 - [fix(feed): sanitize multiline previews to prevent overlay layout corruption](https://github.com/nicobailon/pi-messenger/pull/5) — `nicobailon/pi-messenger`
 - [fix: prevent OAuth race condition causing auth failures](https://github.com/openclaw/mcporter/pull/70) — `openclaw/mcporter`
