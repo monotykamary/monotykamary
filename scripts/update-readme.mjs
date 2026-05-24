@@ -24,6 +24,15 @@ const TOKEN = process.env.GITHUB_TOKEN;
 const README_PATH = resolve(ROOT, "README.md");
 const CONFIG_PATH = resolve(__dirname, "readme-config.json");
 
+// ─── Category emoji resolution ──────────────────────────────────────
+
+/** Resolve the emoji for a repo: prefer parsed existing → falls back to defaultEmoji. */
+function resolveEmoji(repoName, byCategory, existingEmojis, catId) {
+  if (existingEmojis[repoName]) return existingEmojis[repoName];
+  const cat = byCategory.find((c) => c.id === catId);
+  return cat?.defaultEmoji || "📦";
+}
+
 // ─── Config ───────────────────────────────────────────────────────────
 
 const config = JSON.parse(readFileSync(CONFIG_PATH, "utf-8"));
@@ -123,7 +132,7 @@ function categorizeRepos(repos) {
 
 // ─── Markdown generation ──────────────────────────────────────────────
 
-function generateProjectsSection(byCategory) {
+function generateProjectsSection(byCategory, categories, existingEmojis) {
   const lines = ["## Featured Projects", ""];
 
   for (const cat of config.categories) {
@@ -138,7 +147,7 @@ function generateProjectsSection(byCategory) {
     lines.push(`### ${cat.name}`);
     if (cat.description) lines.push(`*${cat.description}*`, "");
     for (const repo of repos) {
-      const emoji = config.emojiMap[repo.name] || cat.defaultEmoji || "📦";
+      const emoji = resolveEmoji(repo.name, categories, existingEmojis, cat.id);
       const desc = config.descriptionMap?.[repo.name] || repo.description || "";
       const suffix = desc ? ` - ${desc}` : "";
       lines.push(
@@ -205,6 +214,18 @@ function generateContributionsSection(openPRs, mergedPRs) {
   return lines.join("\n").trimEnd();
 }
 
+// ─── Parse existing emojis from README ──────────────────────────────
+
+function parseExistingEmojis(readme) {
+  const emojis = {};
+  const regex = /- (\p{Extended_Pictographic})\s+\*\*\[([^]]+)\]/gu;
+  for (const match of readme.matchAll(regex)) {
+    const [_, em, name] = match;
+    emojis[name] = em;
+  }
+  return emojis;
+}
+
 // ─── README section replacement ──────────────────────────────────────
 
 function replaceBetweenMarkers(content, id, newSection) {
@@ -250,7 +271,14 @@ async function main() {
     `   Found ${openPRs.length} open, ${mergedPRs.length} merged PRs`,
   );
 
-  const projectsMd = generateProjectsSection(byCategory);
+  let existingEmojis = {};
+  if (!dryRun) {
+    let readme = readFileSync(README_PATH, "utf-8");
+    existingEmojis = parseExistingEmojis(readme);
+    console.log(`   Parsed ${Object.keys(existingEmojis).length} existing emojis`);
+  }
+
+  const projectsMd = generateProjectsSection(byCategory, config.categories, existingEmojis);
   const contributionsMd = generateContributionsSection(openPRs, mergedPRs);
 
   if (dryRun) {
@@ -261,8 +289,6 @@ async function main() {
     console.log("\n(Dry run — no changes written)");
     return;
   }
-
-  let readme = readFileSync(README_PATH, "utf-8");
 
   readme = replaceBetweenMarkers(readme, "PROJECTS", projectsMd);
   readme = replaceBetweenMarkers(readme, "CONTRIBUTIONS", contributionsMd);
