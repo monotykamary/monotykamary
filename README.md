@@ -32,6 +32,7 @@
 *My collection of extensions for the pi coding agent.*
 
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
+- 🔌 **[pi-startup-tracer](https://github.com/monotykamary/pi-startup-tracer)** - Trace pi extension lifecycle timing to identify startup and resume bottlenecks
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
