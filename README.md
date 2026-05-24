@@ -32,7 +32,7 @@
 *My collection of extensions for the pi coding agent.*
 
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
-- 🔌 **[pi-startup-tracer](https://github.com/monotykamary/pi-startup-tracer)** - Trace pi extension lifecycle timing to identify startup and resume bottlenecks
+- 🐎 **[pi-startup-tracer](https://github.com/monotykamary/pi-startup-tracer)** - Trace pi extension lifecycle timing to identify startup and resume bottlenecks
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
@@ -48,8 +48,8 @@
 - 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
 - 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
 - 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
-- 🔌 **[pi-autoresearch-harness](https://github.com/monotykamary/pi-autoresearch-harness)** - Autonomous experiment loop extension for pi with worktrees as a harness version
-- 🔌 **[pi-morph](https://github.com/monotykamary/pi-morph)** - Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction
+- 🔬 **[pi-autoresearch-harness](https://github.com/monotykamary/pi-autoresearch-harness)** - Autonomous experiment loop extension for pi with worktrees as a harness version
+- 🌊 **[pi-morph](https://github.com/monotykamary/pi-morph)** - Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction
 - 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
 - 🔄 **[pi-recurse](https://github.com/monotykamary/pi-recurse)** - Recursive subagent delegation, inspired by RLMs. Delegate work in single, parallel, or chain modes.
