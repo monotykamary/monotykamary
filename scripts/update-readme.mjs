@@ -218,7 +218,7 @@ function generateContributionsSection(openPRs, mergedPRs) {
 
 function parseExistingEmojis(readme) {
   const emojis = {};
-  const regex = /- (\p{Extended_Pictographic})\s+\*\*\[([^]]+)\]/gu;
+  const regex = /- (\p{Extended_Pictographic})\s+\*\*\[([^\]]+)\]/gu;
   for (const match of readme.matchAll(regex)) {
     const [_, em, name] = match;
     emojis[name] = em;
