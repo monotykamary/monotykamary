@@ -26,9 +26,10 @@ const CONFIG_PATH = resolve(__dirname, "readme-config.json");
 
 // ─── Category emoji resolution ──────────────────────────────────────
 
-/** Resolve the emoji for a repo: prefer parsed existing → falls back to defaultEmoji. */
-function resolveEmoji(repoName, byCategory, existingEmojis, catId) {
+/** Resolve the emoji for a repo: prefer parsed existing → config emojiMap → defaultEmoji. */
+function resolveEmoji(repoName, byCategory, existingEmojis, catId, emojiMap) {
   if (existingEmojis[repoName]) return existingEmojis[repoName];
+  if (emojiMap?.[repoName]) return emojiMap[repoName];
   const cat = byCategory.find((c) => c.id === catId);
   return cat?.defaultEmoji || "📦";
 }
@@ -147,7 +148,7 @@ function generateProjectsSection(byCategory, categories, existingEmojis) {
     lines.push(`### ${cat.name}`);
     if (cat.description) lines.push(`*${cat.description}*`, "");
     for (const repo of repos) {
-      const emoji = resolveEmoji(repo.name, categories, existingEmojis, cat.id);
+      const emoji = resolveEmoji(repo.name, categories, existingEmojis, cat.id, config.emojiMap);
       const desc = config.descriptionMap?.[repo.name] || repo.description || "";
       const suffix = desc ? ` - ${desc}` : "";
       lines.push(
@@ -218,7 +219,7 @@ function generateContributionsSection(openPRs, mergedPRs) {
 
 function parseExistingEmojis(readme) {
   const emojis = {};
-  const regex = /- (\p{Extended_Pictographic})\s+\*\*\[([^\]]+)\]/gu;
+  const regex = /- (\p{Extended_Pictographic}\uFE0F?)\s+\*\*\[([^\]]+)\]/gu;
   for (const match of readme.matchAll(regex)) {
     const [_, em, name] = match;
     emojis[name] = em;

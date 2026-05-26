@@ -25,14 +25,14 @@
 *Independent tools and frameworks I've built.*
 
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
-- 📦 **[folio](https://github.com/monotykamary/folio)** - Book PDF pagination using @chenglou/pretext for text measurement and Chrome's native page breaking. Replaces Paged.js.
+- 📖 **[folio](https://github.com/monotykamary/folio)** - Book PDF pagination using @chenglou/pretext for text measurement and Chrome's native page breaking. Replaces Paged.js.
 - ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
 - 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
-- 🔌 **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
+- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
@@ -44,7 +44,7 @@
 - 🐎 **[pi-startup-tracer](https://github.com/monotykamary/pi-startup-tracer)** - Trace pi extension lifecycle timing to identify startup and resume bottlenecks
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
-- 🔧 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- 🐹 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
@@ -56,10 +56,10 @@
 - 🧠 **[pi-reason-harness](https://github.com/monotykamary/pi-reason-harness)** - Recursive self-improving reasoning harness for pi: iterate, verify, improve.
 - 🔄 **[pi-loop](https://github.com/monotykamary/pi-loop)** - Creates and closes a verification loop on a task.
 - 💤 **[pi-lazy-extensions](https://github.com/monotykamary/pi-lazy-extensions)** - Lazy-load pi extensions on demand via a ToolSearch-style proxy tool.
-- 🔌 **[pi-invisible-continue](https://github.com/monotykamary/pi-invisible-continue)** - Invisible session continuation for pi; resume without sending any prompt
-- 🔌 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
-- 🔌 **[pi-double-esc](https://github.com/monotykamary/pi-double-esc)** - Prevent accidental Escape from aborting the LLM — requires double-press to interrupt while streaming
-- 🔌 **[pi-warp-kitty-images](https://github.com/monotykamary/pi-warp-kitty-images)** - Enable Kitty image protocol for Warp terminal in pi's TUI.
+- 👻 **[pi-invisible-continue](https://github.com/monotykamary/pi-invisible-continue)** - Invisible session continuation for pi; resume without sending any prompt
+- 🙈 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
+- ⌨️ **[pi-double-esc](https://github.com/monotykamary/pi-double-esc)** - Prevent accidental Escape from aborting the LLM — requires double-press to interrupt while streaming
+- 🖼️ **[pi-warp-kitty-images](https://github.com/monotykamary/pi-warp-kitty-images)** - Enable Kitty image protocol for Warp terminal in pi's TUI.
 
 ### Developer Tools
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
@@ -79,9 +79,9 @@
 - 🔢 **[sorted_set_nif_zig](https://github.com/monotykamary/sorted_set_nif_zig)** - Elixir SortedSet backed by a Zig-based NIF for performance.
 
 ### DevOps & Tooling
-- 🔧 **[gitea_on_fly](https://github.com/monotykamary/gitea_on_fly)** - Self-hosted Gitea on Fly.io. Git hosting that scales.
+- ☁️ **[gitea_on_fly](https://github.com/monotykamary/gitea_on_fly)** - Self-hosted Gitea on Fly.io. Git hosting that scales.
 - 🐳 **[docker-wscat](https://github.com/monotykamary/docker-wscat)** - Lightweight wscat Docker image based on node:alpine. WebSocket testing in a container.
-- 🔧 **[dotfiles_i3](https://github.com/monotykamary/dotfiles_i3)** - My i3 window manager configuration. Tiling window management done right.
+- 🖥️ **[dotfiles_i3](https://github.com/monotykamary/dotfiles_i3)** - My i3 window manager configuration. Tiling window management done right.
 <!-- AUTO-GENERATED:PROJECTS:END -->
 
 <!-- AUTO-GENERATED:CONTRIBUTIONS:START -->
