@@ -272,8 +272,9 @@ async function main() {
   );
 
   let existingEmojis = {};
+  let readme;
   if (!dryRun) {
-    let readme = readFileSync(README_PATH, "utf-8");
+    readme = readFileSync(README_PATH, "utf-8");
     existingEmojis = parseExistingEmojis(readme);
     console.log(`   Parsed ${Object.keys(existingEmojis).length} existing emojis`);
   }
