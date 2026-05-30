@@ -31,20 +31,20 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
-- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
-- 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
+- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🐹 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
+- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
+- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
+- 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
-- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
-- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 - 🐎 **[pi-startup-tracer](https://github.com/monotykamary/pi-startup-tracer)** - Trace pi extension lifecycle timing to identify startup and resume bottlenecks
@@ -90,7 +90,6 @@
 
 ### 🔓 Open Pull Requests
 
-- [fix: prevent settings window flash when whisper overlay opens](https://github.com/SuperCmdLabs/SuperCmd/pull/446) — `SuperCmdLabs/SuperCmd`
 - [feat: add Pi usage tracking from local session files](https://github.com/muxy-app/muxy/pull/557) — `muxy-app/muxy`
 - [feat: implement devcontainer stop and down commands](https://github.com/devcontainers/cli/pull/1041) — `devcontainers/cli`
 - [perf: make loadCodePreviewSettings non-blocking in session_start](https://github.com/mattleong/pi-code-previews/pull/14) — `mattleong/pi-code-previews`
@@ -102,6 +101,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix: prevent settings window flash when whisper overlay opens](https://github.com/SuperCmdLabs/SuperCmd/pull/446) — `SuperCmdLabs/SuperCmd`
 - [feat(pi): add session_tree handler for MCR state reset on branch navigation](https://github.com/neuralwatt/neuralwatt-tools/pull/28) — `neuralwatt/neuralwatt-tools`
 - [feat(whisper): add dropdown preset keybinding selector for speech-to-text](https://github.com/SuperCmdLabs/SuperCmd/pull/447) — `SuperCmdLabs/SuperCmd`
 - [feat(whisper): native AVAudioEngine capture bypasses renderer getUserMedia](https://github.com/SuperCmdLabs/SuperCmd/pull/448) — `SuperCmdLabs/SuperCmd`
@@ -121,11 +121,11 @@
 - [fix(lifecycle): run deferred side effects directly after commit](https://github.com/inloopstudio/fosm-rails/pull/5) — `inloopstudio/fosm-rails`
 - [feat(daemon): add model name to pi initial status and RPC abort on cancel](https://github.com/nexu-io/open-design/pull/618) — `nexu-io/open-design`
 - [fix(daemon): remove --no-session from pi adapter to persist session files](https://github.com/nexu-io/open-design/pull/557) — `nexu-io/open-design`
-- [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `anomalyco/models.dev`
 
 <details>
-<summary>Show 192 more merged PRs</summary>
+<summary>Show 193 more merged PRs</summary>
 
+- [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `anomalyco/models.dev`
 - [fix(daemon): emit tool_use from tool_execution_start in pi-rpc](https://github.com/nexu-io/open-design/pull/186) — `nexu-io/open-design`
 - [feat(daemon): add pi coding agent adapter](https://github.com/nexu-io/open-design/pull/117) — `nexu-io/open-design`
 - [feat(dashboard): add check run external links and rerun buttons](https://github.com/stylessh/diffkit/pull/164) — `stylessh/diffkit`
