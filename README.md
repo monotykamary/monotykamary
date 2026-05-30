@@ -41,6 +41,7 @@
 - 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
+- ⚡ **[pi-fast-resume](https://github.com/monotykamary/pi-fast-resume)** - Instant session picker for pi — reads 16KB per file instead of the full JSONL, first results in 6ms.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
