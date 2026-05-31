@@ -31,27 +31,27 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
-- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
+- 🐊 **[pi-makora-provider](https://github.com/monotykamary/pi-makora-provider)** - Makora provider extension for pi — access DeepSeek V4, GLM 5.1, Kimi K2.6, Llama 3.3, Qwen 3.6, and more through the Makora inference API
+- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
+- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
-- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
+- ⚡ **[pi-fast-resume](https://github.com/monotykamary/pi-fast-resume)** - ⚡ Instant session picker for pi — reads 16KB per file instead of the full JSONL, first results in 6ms
+- 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
+- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
 - 🐹 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
 - 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
-- 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
-- ⚡ **[pi-fast-resume](https://github.com/monotykamary/pi-fast-resume)** - Instant session picker for pi — reads 16KB per file instead of the full JSONL, first results in 6ms.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
-- 🐊 **[pi-makora-provider](https://github.com/monotykamary/pi-makora-provider)** - Access DeepSeek V4, GLM 5.1, Kimi K2.6, Llama 3.3, Qwen 3.6, and more through the Makora inference API.
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 - 🐎 **[pi-startup-tracer](https://github.com/monotykamary/pi-startup-tracer)** - Trace pi extension lifecycle timing to identify startup and resume bottlenecks
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
-- 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
 - 🔬 **[pi-autoresearch-harness](https://github.com/monotykamary/pi-autoresearch-harness)** - Autonomous experiment loop extension for pi with worktrees as a harness version
 - 🌊 **[pi-morph](https://github.com/monotykamary/pi-morph)** - Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction
 - 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
