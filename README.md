@@ -31,18 +31,19 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
+- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
+- ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
+- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
+- 🐹 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
+- ⚡ **[pi-fast-resume](https://github.com/monotykamary/pi-fast-resume)** - ⚡ Instant session picker for pi — reads 16KB per file instead of the full JSONL, first results in 6ms
+- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🐊 **[pi-makora-provider](https://github.com/monotykamary/pi-makora-provider)** - Makora provider extension for pi — access DeepSeek V4, GLM 5.1, Kimi K2.6, Llama 3.3, Qwen 3.6, and more through the Makora inference API
 - 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
-- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
-- ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
-- ⚡ **[pi-fast-resume](https://github.com/monotykamary/pi-fast-resume)** - ⚡ Instant session picker for pi — reads 16KB per file instead of the full JSONL, first results in 6ms
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
 - 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
-- 🐹 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
 - 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
-- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
-- 🛣️ **[pi-routing-run-provider](https://github.com/monotykamary/pi-routing-run-provider)** - Routing.run as a custom model provider for pi.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
@@ -51,7 +52,6 @@
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 - 🐎 **[pi-startup-tracer](https://github.com/monotykamary/pi-startup-tracer)** - Trace pi extension lifecycle timing to identify startup and resume bottlenecks
-- 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🔬 **[pi-autoresearch-harness](https://github.com/monotykamary/pi-autoresearch-harness)** - Autonomous experiment loop extension for pi with worktrees as a harness version
 - 🌊 **[pi-morph](https://github.com/monotykamary/pi-morph)** - Pi extension for Morph SDK — Fast Apply, WarpGrep, Public Repo Context, and Compaction
 - 🌿 **[pi-var](https://github.com/monotykamary/pi-var)** - Copy-on-Write (CoW) development workspaces. Isolated variations for parallel experiments.
@@ -125,7 +125,7 @@
 - [fix(daemon): remove --no-session from pi adapter to persist session files](https://github.com/nexu-io/open-design/pull/557) — `nexu-io/open-design`
 
 <details>
-<summary>Show 193 more merged PRs</summary>
+<summary>Show 192 more merged PRs</summary>
 
 - [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `anomalyco/models.dev`
 - [fix(daemon): emit tool_use from tool_execution_start in pi-rpc](https://github.com/nexu-io/open-design/pull/186) — `nexu-io/open-design`
@@ -262,7 +262,6 @@
 - [chore: update common-component for example My + Minh](https://github.com/dwarvesf/brainery/pull/8) — `dwarvesf/brainery`
 - [feat: add devbox](https://github.com/dwarvesf/memo.d.foundation/pull/6) — `dwarvesf/memo.d.foundation`
 - [chore: update frontmatter and assets for note.d](https://github.com/dwarvesf/playbook/pull/67) — `dwarvesf/playbook`
-- [feat: implement devcontainers and add debug story](https://github.com/dwarvesf/go-api/pull/17) — `dwarvesf/go-api`
 - [docs: add basic documentation for final project](https://github.com/dwarvesf/df-frontend-2023/pull/18) — `dwarvesf/df-frontend-2023`
 - [feat: bfs algo shortest path](https://github.com/baenv/database-concurrency/pull/14) — `baenv/database-concurrency`
 - [feat: add check in out apis](https://github.com/baenv/database-concurrency/pull/13) — `baenv/database-concurrency`
