@@ -65,7 +65,7 @@ async function fetchAllRepos() {
       `https://api.github.com/users/${USERNAME}/repos?sort=pushed&direction=desc&per_page=100&page=${page}`,
     );
     const filtered = data.filter(
-      (r) => !r.fork && !r.private && !EXCLUDE_REPOS.has(r.name),
+      (r) => !r.fork && !r.private && !r.archived && !EXCLUDE_REPOS.has(r.name),
     );
     repos.push(...filtered);
     if (data.length < 100) break;
