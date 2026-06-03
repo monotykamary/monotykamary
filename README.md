@@ -32,8 +32,8 @@
 *My collection of extensions for the pi coding agent.*
 
 - 🩹 **[pi-tool-repair](https://github.com/monotykamary/pi-tool-repair)** - Validate-then-repair extension for pi — fixes common LLM tool-call mistakes (null fields, stringified arrays, wrong field names, anchor bleed) before tools execute.
-- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
+- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
 - ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
@@ -103,6 +103,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix(pi-ext): guard against double session_start firing ("two brains" MCR session_fp flip)](https://github.com/neuralwatt/neuralwatt-tools/pull/37) — `neuralwatt/neuralwatt-tools`
 - [fix: prevent settings window flash when whisper overlay opens](https://github.com/SuperCmdLabs/SuperCmd/pull/446) — `SuperCmdLabs/SuperCmd`
 - [feat(pi): add session_tree handler for MCR state reset on branch navigation](https://github.com/neuralwatt/neuralwatt-tools/pull/28) — `neuralwatt/neuralwatt-tools`
 - [feat(whisper): add dropdown preset keybinding selector for speech-to-text](https://github.com/SuperCmdLabs/SuperCmd/pull/447) — `SuperCmdLabs/SuperCmd`
@@ -122,11 +123,11 @@
 - [fix: replace prepare with prepack to fix git install](https://github.com/mattleong/pi-code-previews/pull/8) — `mattleong/pi-code-previews`
 - [fix(lifecycle): run deferred side effects directly after commit](https://github.com/inloopstudio/fosm-rails/pull/5) — `inloopstudio/fosm-rails`
 - [feat(daemon): add model name to pi initial status and RPC abort on cancel](https://github.com/nexu-io/open-design/pull/618) — `nexu-io/open-design`
-- [fix(daemon): remove --no-session from pi adapter to persist session files](https://github.com/nexu-io/open-design/pull/557) — `nexu-io/open-design`
 
 <details>
-<summary>Show 192 more merged PRs</summary>
+<summary>Show 193 more merged PRs</summary>
 
+- [fix(daemon): remove --no-session from pi adapter to persist session files](https://github.com/nexu-io/open-design/pull/557) — `nexu-io/open-design`
 - [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `anomalyco/models.dev`
 - [fix(daemon): emit tool_use from tool_execution_start in pi-rpc](https://github.com/nexu-io/open-design/pull/186) — `nexu-io/open-design`
 - [feat(daemon): add pi coding agent adapter](https://github.com/nexu-io/open-design/pull/117) — `nexu-io/open-design`
