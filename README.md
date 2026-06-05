@@ -45,6 +45,7 @@
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🐊 **[pi-makora-provider](https://github.com/monotykamary/pi-makora-provider)** - Makora provider extension for pi — access DeepSeek V4, GLM 5.1, Kimi K2.6, Llama 3.3, Qwen 3.6, and more through the Makora inference API
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
+- 🔗 **[pi-umans-provider](https://github.com/monotykamary/pi-umans-provider)** - UMANS provider extension for pi — Access Kimi K2.6, GLM 5.1, Qwen 3.6, and coding-optimized models through the UMANS API.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
 - 🗜️ **[pi-vcc](https://github.com/monotykamary/pi-vcc)** — *Fork* — Smart, Fast & Lossless session compaction for Pi. No LLM calls — produces structured, transcript-preserving summaries using pure extraction and formatting.
