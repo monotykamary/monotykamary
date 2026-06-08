@@ -101,7 +101,7 @@
 - [perf: make loadCodePreviewSettings non-blocking in session_start](https://github.com/mattleong/pi-code-previews/pull/14) — `mattleong/pi-code-previews`
 - [fix: prevent re-entrant event loop hang in main process (18s freeze)](https://github.com/SuperCmdLabs/SuperCmd/pull/388) — `SuperCmdLabs/SuperCmd`
 - [feat(code-review): entity-level semantic diff in the code review panel](https://github.com/warpdotdev/warp/pull/9917) — `warpdotdev/warp`
-- [fix(terminal): cap active block height and skip redundant SumTree rebuilds](https://github.com/warpdotdev/warp/pull/9738) — `warpdotdev/warp`
+- [fix: respect user's minimumKeyTime for modifier-only hotkeys](https://github.com/kitlangton/Hex/pull/241) — `kitlangton/Hex`
 - [fix(chunker): propagate render errors instead of silently swallowing](https://github.com/pagedjs/pagedjs/pull/330) — `pagedjs/pagedjs`
 
 ### ✅ Merged Pull Requests
