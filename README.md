@@ -31,6 +31,7 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
+- 🏷️ **[pi-namespace](https://github.com/monotykamary/pi-namespace)** - Namespace tools and skills in pi — group tools by extension with configurable prefix rewriting.
 - 🩹 **[pi-tool-repair](https://github.com/monotykamary/pi-tool-repair)** - Validate-then-repair extension for pi — fixes common LLM tool-call mistakes (null fields, stringified arrays, wrong field names, anchor bleed) before tools execute.
 - ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
 - ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
