@@ -67,6 +67,7 @@
 - 👻 **[pi-invisible-continue](https://github.com/monotykamary/pi-invisible-continue)** - Invisible session continuation for pi; resume without sending any prompt
 - 🚫⏩ **[pi-trust-defer](https://github.com/monotykamary/pi-trust-defer)** - Skip the startup trust prompt in pi — auto-decline project trust so you're immediately interactive, then /trust + /reload to apply
 - 🙈 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
+- 👁️ **[pi-vision-handoff](https://github.com/monotykamary/pi-vision-handoff)** - Give text-only pi models vision — describe images with a vision model you pick via an interactive picker, then hand off the text description to non-vision models
 - 🔄 **[pi-model-sort](https://github.com/monotykamary/pi-model-sort)** - Sort models in pi's /model selector by last usage — most recently used models appear first
 - ✨ **[pi-hypercharm-provider](https://github.com/monotykamary/pi-hypercharm-provider)** - HyperCharm provider extension for pi — Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Gemma, GPT-OSS, and Llama models through the Charm Hyper API
 - 🔘 **[pi-toggle-skills](https://github.com/monotykamary/pi-toggle-skills)** - Toggle skill visibility in pi's system prompt — flip disable-model-invocation on skills via an interactive TUI
