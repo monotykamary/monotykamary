@@ -28,6 +28,7 @@
 - 📖 **[folio](https://github.com/monotykamary/folio)** - Book PDF pagination using @chenglou/pretext for text measurement and Chrome's native page breaking. Replaces Paged.js.
 - ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
 - ⚡ **[neuralwatt-energy-status](https://github.com/monotykamary/neuralwatt-energy-status)** - Per-model energy-per-request status for Neuralwatt, as clean JSON. Zero-dependency CLI that scrapes the public, server-rendered energy-pricing page — energy in Wh, request-share, and cache-hit rate per model and token bucket. Installable via curl.
+- 🗺️ **[pi-lilac-tracker](https://github.com/monotykamary/pi-lilac-tracker)** - Live tracker for Lilac's idle-GPU discount tiers — adaptive polling into JSONL history, plus a Mercator map of solar-noon discount zones and a civil-timezone territory overlay.
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
