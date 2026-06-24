@@ -24,6 +24,7 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
+- 🖥️ **[localterm](https://github.com/monotykamary/localterm)** — *Fork* — Your terminal should just be a browser tab. Every browser tab is one shell; open a tab to spawn, close it to kill. npm-installable daemon with tailnet, local HTTPS, and loopback surfaces.
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
 - 📖 **[folio](https://github.com/monotykamary/folio)** - Book PDF pagination using @chenglou/pretext for text measurement and Chrome's native page breaking. Replaces Paged.js.
 - ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
