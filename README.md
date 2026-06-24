@@ -105,6 +105,7 @@
 
 ### 🔓 Open Pull Requests
 
+- [feat(neuralwatt): add GLM 5.2 Fast variant](https://github.com/anomalyco/models.dev/pull/2662) — `anomalyco/models.dev`
 - [feat: implement devcontainer stop and down commands](https://github.com/devcontainers/cli/pull/1041) — `devcontainers/cli`
 - [perf: make loadCodePreviewSettings non-blocking in session_start](https://github.com/mattleong/pi-code-previews/pull/14) — `mattleong/pi-code-previews`
 - [fix: prevent re-entrant event loop hang in main process (18s freeze)](https://github.com/SuperCmdLabs/SuperCmd/pull/388) — `SuperCmdLabs/SuperCmd`
@@ -115,6 +116,10 @@
 
 ### ✅ Merged Pull Requests
 
+- [chore(deps): bump all packages to latest majors + migrate Next 16 / ESLint / TS 6 stack](https://github.com/dwarvesf/memo.d.foundation/pull/300) — `dwarvesf/memo.d.foundation`
+- [feat(neuralwatt): expose full GLM 5.2 reasoning effort scale](https://github.com/anomalyco/models.dev/pull/2645) — `anomalyco/models.dev`
+- [feat(neuralwatt): add GLM 5.2 and retire MiniMax M2.5, Devstral, GPT OSS 20B](https://github.com/anomalyco/models.dev/pull/2636) — `anomalyco/models.dev`
+- [fix(pi-fff): persist fff-mode across /reload and session resume](https://github.com/dmtrKovalenko/fff/pull/593) — `dmtrKovalenko/fff`
 - [fix(pi-ext): guard against double session_start firing ("two brains" MCR session_fp flip)](https://github.com/neuralwatt/neuralwatt-tools/pull/37) — `neuralwatt/neuralwatt-tools`
 - [fix: prevent settings window flash when whisper overlay opens](https://github.com/SuperCmdLabs/SuperCmd/pull/446) — `SuperCmdLabs/SuperCmd`
 - [feat(pi): add session_tree handler for MCR state reset on branch navigation](https://github.com/neuralwatt/neuralwatt-tools/pull/28) — `neuralwatt/neuralwatt-tools`
@@ -131,14 +136,13 @@
 - [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
 - [fix(native): update FluidAudio 0.12.4 → 0.14.4 for Swift 6.3 compatibility](https://github.com/SuperCmdLabs/SuperCmd/pull/377) — `SuperCmdLabs/SuperCmd`
 - [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
+<details>
+<summary>Show 197 more merged PRs</summary>
+
 - [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 - [fix: replace prepare with prepack to fix git install](https://github.com/mattleong/pi-code-previews/pull/8) — `mattleong/pi-code-previews`
 - [fix(lifecycle): run deferred side effects directly after commit](https://github.com/inloopstudio/fosm-rails/pull/5) — `inloopstudio/fosm-rails`
 - [feat(daemon): add model name to pi initial status and RPC abort on cancel](https://github.com/nexu-io/open-design/pull/618) — `nexu-io/open-design`
-
-<details>
-<summary>Show 193 more merged PRs</summary>
-
 - [fix(daemon): remove --no-session from pi adapter to persist session files](https://github.com/nexu-io/open-design/pull/557) — `nexu-io/open-design`
 - [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `anomalyco/models.dev`
 - [fix(daemon): emit tool_use from tool_execution_start in pi-rpc](https://github.com/nexu-io/open-design/pull/186) — `nexu-io/open-design`
