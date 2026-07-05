@@ -106,13 +106,13 @@
 
 ### 🔓 Open Pull Requests
 
-- [feat: implement devcontainer stop and down commands](https://github.com/devcontainers/cli/pull/1041) — `devcontainers/cli`
+- [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
+- [fix: respect user's minimumKeyTime for modifier-only hotkeys](https://github.com/kitlangton/Hex/pull/241) — `kitlangton/Hex`
 - [perf: make loadCodePreviewSettings non-blocking in session_start](https://github.com/mattleong/pi-code-previews/pull/14) — `mattleong/pi-code-previews`
 - [fix: prevent re-entrant event loop hang in main process (18s freeze)](https://github.com/SuperCmdLabs/SuperCmd/pull/388) — `SuperCmdLabs/SuperCmd`
 - [feat(code-review): entity-level semantic diff in the code review panel](https://github.com/warpdotdev/warp/pull/9917) — `warpdotdev/warp`
-- [fix: respect user's minimumKeyTime for modifier-only hotkeys](https://github.com/kitlangton/Hex/pull/241) — `kitlangton/Hex`
 - [fix(chunker): propagate render errors instead of silently swallowing](https://github.com/pagedjs/pagedjs/pull/330) — `pagedjs/pagedjs`
-- [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
+- [feat: implement devcontainer stop and down commands](https://github.com/devcontainers/cli/pull/1041) — `devcontainers/cli`
 
 ### ✅ Merged Pull Requests
 
@@ -126,7 +126,6 @@
 - [feat(whisper): add dropdown preset keybinding selector for speech-to-text](https://github.com/SuperCmdLabs/SuperCmd/pull/447) — `SuperCmdLabs/SuperCmd`
 - [feat(whisper): native AVAudioEngine capture bypasses renderer getUserMedia](https://github.com/SuperCmdLabs/SuperCmd/pull/448) — `SuperCmdLabs/SuperCmd`
 - [fix(browser-search): restore frecency function removed in #434](https://github.com/SuperCmdLabs/SuperCmd/pull/449) — `SuperCmdLabs/SuperCmd`
-- [feat(daemon): close pi adapter parity gaps — imagePaths, extraAllowedDirs, error events, sendAgentEvent routing](https://github.com/nexu-io/open-design/pull/763) — `nexu-io/open-design`
 - [fix(neuralwatt): update Qwen3.6 pricing to match API](https://github.com/anomalyco/models.dev/pull/1834) — `anomalyco/models.dev`
 - [fix(i18n): restore structural parity across all 9 locales](https://github.com/SuperCmdLabs/SuperCmd/pull/403) — `SuperCmdLabs/SuperCmd`
 - [fix(diff): remove uncolored gap at right edge of diff background](https://github.com/mattleong/pi-code-previews/pull/13) — `mattleong/pi-code-previews`
@@ -136,12 +135,13 @@
 - [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
 - [fix(native): update FluidAudio 0.12.4 → 0.14.4 for Swift 6.3 compatibility](https://github.com/SuperCmdLabs/SuperCmd/pull/377) — `SuperCmdLabs/SuperCmd`
 - [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
+- [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 <details>
 <summary>Show 197 more merged PRs</summary>
 
-- [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 - [fix: replace prepare with prepack to fix git install](https://github.com/mattleong/pi-code-previews/pull/8) — `mattleong/pi-code-previews`
 - [fix(lifecycle): run deferred side effects directly after commit](https://github.com/inloopstudio/fosm-rails/pull/5) — `inloopstudio/fosm-rails`
+- [feat(daemon): close pi adapter parity gaps — imagePaths, extraAllowedDirs, error events, sendAgentEvent routing](https://github.com/nexu-io/open-design/pull/763) — `nexu-io/open-design`
 - [feat(daemon): add model name to pi initial status and RPC abort on cancel](https://github.com/nexu-io/open-design/pull/618) — `nexu-io/open-design`
 - [fix(daemon): remove --no-session from pi adapter to persist session files](https://github.com/nexu-io/open-design/pull/557) — `nexu-io/open-design`
 - [feat: add neuralwatt provider with 14 models](https://github.com/anomalyco/models.dev/pull/1610) — `anomalyco/models.dev`
@@ -187,113 +187,113 @@
 - [fix: resolve test failures by adding missing zod-openapi import](https://github.com/anomalyco/opencode/pull/301) — `anomalyco/opencode`
 - [fix: combine stdout and stderr in bash tool output](https://github.com/anomalyco/opencode/pull/300) — `anomalyco/opencode`
 - [feat(google): add gemini 2.5 pro, flash, and flash lite preview models](https://github.com/anomalyco/models.dev/pull/14) — `anomalyco/models.dev`
+- [feat: add Ctrl+E keybinding to open prompt in external editor](https://github.com/evalstate/fast-agent/pull/218) — `evalstate/fast-agent`
+- [fix(provider/gemini): Prevent empty parts in assistant messages](https://github.com/opencode-ai/opencode/pull/194) — `opencode-ai/opencode`
+- [feat: Add distill project runbook tool](https://github.com/dwarvesf/mcp-playbook/pull/3) — `dwarvesf/mcp-playbook`
+- [feat: standardize chatlog format and filename](https://github.com/dwarvesf/mcp-playbook/pull/2) — `dwarvesf/mcp-playbook`
+- [feat: implement google genai provider](https://github.com/evalstate/fast-agent/pull/134) — `evalstate/fast-agent`
+- [feat: improve github rate limit handling for profile generation](https://github.com/dwarvesf/memo.d.foundation/pull/159) — `dwarvesf/memo.d.foundation`
+- [feat: Add optional CACHE_PASSWORD env for Redis AUTH](https://github.com/latitude-dev/latitude-llm/pull/1257) — `latitude-dev/latitude-llm`
+- [feat: add gemini-2.5-pro-preview-05-06 model](https://github.com/cline/cline/pull/3332) — `cline/cline`
+- [feat: Add second brain motivations blog post](https://github.com/dwarvesf/brainery/pull/176) — `dwarvesf/brainery`
+- [feat: update gemini sdk and add thinking budget support](https://github.com/cline/cline/pull/2964) — `cline/cline`
+- [feat: enhance redirect and alias handling](https://github.com/dwarvesf/memo.d.foundation/pull/126) — `dwarvesf/memo.d.foundation`
+- [refactor: update directory tree and menu logic (DuckDB integration)](https://github.com/dwarvesf/memo.d.foundation/pull/125) — `dwarvesf/memo.d.foundation`
+- [docs: add streaming video use-case](https://github.com/dwarvesf/research/pull/503) — `dwarvesf/research`
+- [feat: Add Mermaid diagram rendering with theme support](https://github.com/dwarvesf/memo.d.foundation/pull/116) — `dwarvesf/memo.d.foundation`
+- [fix(api): update cacheReadsPrice for OpenAI GPT-4.1 models](https://github.com/cline/cline/pull/2887) — `cline/cline`
+- [fix: remove trailing slashes from formatted memo paths](https://github.com/dwarvesf/memo.d.foundation/pull/114) — `dwarvesf/memo.d.foundation`
+- [feat: Migrate redirect and search scripts to @duckdb/node-api](https://github.com/dwarvesf/memo.d.foundation/pull/112) — `dwarvesf/memo.d.foundation`
+- [feat(profiles): Add profile management tools and session support](https://github.com/hyperbrowserai/mcp/pull/6) — `hyperbrowserai/mcp`
+- [feat: Implement Short Link and History Redirects](https://github.com/dwarvesf/memo.d.foundation/pull/109) — `dwarvesf/memo.d.foundation`
+- [fix(test): migrate test runner to vscode-test](https://github.com/dwarvesf/md-ar-ext/pull/1) — `dwarvesf/md-ar-ext`
+- [feat: Add update_pull_request tool](https://github.com/github/github-mcp-server/pull/122) — `github/github-mcp-server`
+- [feat: add tiered pricing for gemini-2.5-pro](https://github.com/cline/cline/pull/2741) — `cline/cline`
+- [fix: update output pricing for Gemini Flash models](https://github.com/cline/cline/pull/2685) — `cline/cline`
+- [fix(content): adjust backlink path and title logic](https://github.com/dwarvesf/memo.d.foundation/pull/99) — `dwarvesf/memo.d.foundation`
+- [perf(content): exclude content from list page data](https://github.com/dwarvesf/memo.d.foundation/pull/98) — `dwarvesf/memo.d.foundation`
 - [feat(git): limit submodule recursion depth to 2 levels](https://github.com/dwarvesf/memo.d.foundation/pull/97) — `dwarvesf/memo.d.foundation`
+- [fix: remove highlighting from expandable directory groups](https://github.com/dwarvesf/memo.d.foundation/pull/96) — `dwarvesf/memo.d.foundation`
 - [feat(backlinks): improve backlink search patterns](https://github.com/dwarvesf/memo.d.foundation/pull/95) — `dwarvesf/memo.d.foundation`
 - [feat(backlinks): improve search patterns for backlinks](https://github.com/dwarvesf/memo.d.foundation/pull/94) — `dwarvesf/memo.d.foundation`
 - [fix: remove .md extension from internal markdown links](https://github.com/dwarvesf/memo.d.foundation/pull/92) — `dwarvesf/memo.d.foundation`
 - [feat(directory-tree): display readme.md files in directory menu](https://github.com/dwarvesf/memo.d.foundation/pull/91) — `dwarvesf/memo.d.foundation`
-- [chore: skip home.md and index.md files in root export](https://github.com/dwarvesf/memo.d.foundation/pull/87) — `dwarvesf/memo.d.foundation`
+- [refactor: migrate to nextjs blog engine](https://github.com/dwarvesf/memo.d.foundation/pull/39) — `dwarvesf/memo.d.foundation`
 - [perf(command-palette): static gen index and resolve navigation issues](https://github.com/dwarvesf/memo.d.foundation/pull/84) — `dwarvesf/memo.d.foundation`
+- [chore: skip home.md and index.md files in root export](https://github.com/dwarvesf/memo.d.foundation/pull/87) — `dwarvesf/memo.d.foundation`
+- [Add MCP security documentation](https://github.com/dwarvesf/research/pull/494) — `dwarvesf/research`
 - [feat(markdown): prioritize README.md files over _index.md files](https://github.com/dwarvesf/memo.d.foundation/pull/70) — `dwarvesf/memo.d.foundation`
 - [feat(search): replace remote API with local DuckDB WASM for search functionality](https://github.com/dwarvesf/memo.d.foundation/pull/67) — `dwarvesf/memo.d.foundation`
 - [feat: auto-generate blank _index.md files for Hugo](https://github.com/dwarvesf/memo.d.foundation/pull/63) — `dwarvesf/memo.d.foundation`
 - [ci: update GitHub workflows with concurrency and dependency upgrades](https://github.com/dwarvesf/memo.d.foundation/pull/61) — `dwarvesf/memo.d.foundation`
 - [chore: remove pdf js](https://github.com/dwarvesf/memo.d.foundation/pull/46) — `dwarvesf/memo.d.foundation`
-- [feat: add Ctrl+E keybinding to open prompt in external editor](https://github.com/evalstate/fast-agent/pull/218) — `evalstate/fast-agent`
-- [fix(provider/gemini): Prevent empty parts in assistant messages](https://github.com/opencode-ai/opencode/pull/194) — `opencode-ai/opencode`
-- [feat: Add distill project runbook tool](https://github.com/dwarvesf/mcp-playbook/pull/3) — `dwarvesf/mcp-playbook`
-- [feat: implement google genai provider](https://github.com/evalstate/fast-agent/pull/134) — `evalstate/fast-agent`
-- [feat: standardize chatlog format and filename](https://github.com/dwarvesf/mcp-playbook/pull/2) — `dwarvesf/mcp-playbook`
-- [fix: JSON schema issue with gemini tool calls](https://github.com/continuedev/continue/pull/3851) — `continuedev/continue`
-- [feat: improve github rate limit handling for profile generation](https://github.com/dwarvesf/memo.d.foundation/pull/159) — `dwarvesf/memo.d.foundation`
-- [feat: Add optional CACHE_PASSWORD env for Redis AUTH](https://github.com/latitude-dev/latitude-llm/pull/1257) — `latitude-dev/latitude-llm`
-- [feat: add gemini-2.5-pro-preview-05-06 model](https://github.com/cline/cline/pull/3332) — `cline/cline`
-- [feat: Add second brain motivations blog post](https://github.com/dwarvesf/brainery/pull/176) — `dwarvesf/brainery`
-- [writing: the six lines of gold](https://github.com/dwarvesf/research/pull/103) — `dwarvesf/research`
-- [chore: add dates and local images from imgur](https://github.com/dwarvesf/research/pull/99) — `dwarvesf/research`
-- [chore: add obsidian config files](https://github.com/dwarvesf/research/pull/94) — `dwarvesf/research`
-- [docs: add moc and contributing docs](https://github.com/dwarvesf/research/pull/91) — `dwarvesf/research`
-- [ai: Workaround with OpenAI's token limit](https://github.com/dwarvesf/research/pull/182) — `dwarvesf/research`
-- [ai: Working with Langchain document loaders](https://github.com/dwarvesf/research/pull/183) — `dwarvesf/research`
-- [backend: SQL Sargable Queries and Their Impact on Database Performance](https://github.com/dwarvesf/research/pull/233) — `dwarvesf/research`
-- [backend: SQL and how it relates to Disk Reads and Writes](https://github.com/dwarvesf/research/pull/230) — `dwarvesf/research`
-- [ai: story map for LLMs](https://github.com/dwarvesf/research/pull/224) — `dwarvesf/research`
-- [refactor: add github_id to frontmatter](https://github.com/dwarvesf/research/pull/150) — `dwarvesf/research`
-- [chore: remove all personal and archived notes](https://github.com/dwarvesf/research/pull/137) — `dwarvesf/research`
-- [chore: update frontmatter reports](https://github.com/dwarvesf/research/pull/120) — `dwarvesf/research`
-- [docs: add dataview reports for brainery + fleeting notes](https://github.com/dwarvesf/research/pull/113) — `dwarvesf/research`
-- [docs: create templates and generate MOCs from templater + dataview](https://github.com/dwarvesf/research/pull/68) — `dwarvesf/research`
-- [docs: update nested folder notice](https://github.com/dwarvesf/research/pull/56) — `dwarvesf/research`
-- [engineering: finite-state transducers + mealy and moore machines](https://github.com/dwarvesf/research/pull/41) — `dwarvesf/research`
-- [chore: update convention details pr commit](https://github.com/dwarvesf/research/pull/38) — `dwarvesf/research`
-- [rollout: import public knowledge from our honorary hall](https://github.com/dwarvesf/research/pull/4) — `dwarvesf/research`
-- [writing: transpose SEL technique from software modeling](https://github.com/dwarvesf/research/pull/8) — `dwarvesf/research`
-- [engineering: brief intro to c4 diagrams](https://github.com/dwarvesf/research/pull/16) — `dwarvesf/research`
-- [engineering: service-based architecture](https://github.com/dwarvesf/research/pull/17) — `dwarvesf/research`
-- [writing: question tree](https://github.com/dwarvesf/research/pull/19) — `dwarvesf/research`
-- [engineering: introductory articles on state machines](https://github.com/dwarvesf/research/pull/22) — `dwarvesf/research`
-- [docs: create CONTRIBUTING document](https://github.com/dwarvesf/research/pull/23) — `dwarvesf/research`
-- [docs: add streaming video use-case](https://github.com/dwarvesf/research/pull/503) — `dwarvesf/research`
-- [Add MCP security documentation](https://github.com/dwarvesf/research/pull/494) — `dwarvesf/research`
-- [fix: image error in unstake section of earning from staking dfg post](https://github.com/dwarvesf/research/pull/312) — `dwarvesf/research`
-- [memo: add fleeting note on RAPTOR](https://github.com/dwarvesf/research/pull/314) — `dwarvesf/research`
-- [feat(memo): add post on building tools with Dify](https://github.com/dwarvesf/research/pull/321) — `dwarvesf/research`
-- [feat(memo): local search engine on memo](https://github.com/dwarvesf/research/pull/324) — `dwarvesf/research`
-- [memo: journey of thought prompting](https://github.com/dwarvesf/research/pull/359) — `dwarvesf/research`
-- [feat: update gemini sdk and add thinking budget support](https://github.com/cline/cline/pull/2964) — `cline/cline`
-- [feat: enhance redirect and alias handling](https://github.com/dwarvesf/memo.d.foundation/pull/126) — `dwarvesf/memo.d.foundation`
-- [refactor: update directory tree and menu logic (DuckDB integration)](https://github.com/dwarvesf/memo.d.foundation/pull/125) — `dwarvesf/memo.d.foundation`
-- [feat: allow headers from openapi](https://github.com/dwarvesf/nextjs-boilerplate/pull/41) — `dwarvesf/nextjs-boilerplate`
-- [feat: add devcontainer](https://github.com/dwarvesf/nextjs-boilerplate/pull/40) — `dwarvesf/nextjs-boilerplate`
-- [fix: remove highlighting from expandable directory groups](https://github.com/dwarvesf/memo.d.foundation/pull/96) — `dwarvesf/memo.d.foundation`
-- [perf(content): exclude content from list page data](https://github.com/dwarvesf/memo.d.foundation/pull/98) — `dwarvesf/memo.d.foundation`
-- [fix(content): adjust backlink path and title logic](https://github.com/dwarvesf/memo.d.foundation/pull/99) — `dwarvesf/memo.d.foundation`
-- [feat: Implement Short Link and History Redirects](https://github.com/dwarvesf/memo.d.foundation/pull/109) — `dwarvesf/memo.d.foundation`
-- [feat: Migrate redirect and search scripts to @duckdb/node-api](https://github.com/dwarvesf/memo.d.foundation/pull/112) — `dwarvesf/memo.d.foundation`
-- [fix: remove trailing slashes from formatted memo paths](https://github.com/dwarvesf/memo.d.foundation/pull/114) — `dwarvesf/memo.d.foundation`
-- [feat: Add Mermaid diagram rendering with theme support](https://github.com/dwarvesf/memo.d.foundation/pull/116) — `dwarvesf/memo.d.foundation`
-- [fix(api): update cacheReadsPrice for OpenAI GPT-4.1 models](https://github.com/cline/cline/pull/2887) — `cline/cline`
-- [feat(profiles): Add profile management tools and session support](https://github.com/hyperbrowserai/mcp/pull/6) — `hyperbrowserai/mcp`
-- [fix(test): migrate test runner to vscode-test](https://github.com/dwarvesf/md-ar-ext/pull/1) — `dwarvesf/md-ar-ext`
-- [feat: Add update_pull_request tool](https://github.com/github/github-mcp-server/pull/122) — `github/github-mcp-server`
-- [feat: add tiered pricing for gemini-2.5-pro](https://github.com/cline/cline/pull/2741) — `cline/cline`
-- [fix: update output pricing for Gemini Flash models](https://github.com/cline/cline/pull/2685) — `cline/cline`
-- [refactor: migrate to nextjs blog engine](https://github.com/dwarvesf/memo.d.foundation/pull/39) — `dwarvesf/memo.d.foundation`
-- [chore: migrate to mix project](https://github.com/dwarvesf/memo.d.foundation/pull/22) — `dwarvesf/memo.d.foundation`
-- [memo: add forward engineering 2024-2025](https://github.com/dwarvesf/brainery/pull/149) — `dwarvesf/brainery`
 - [style(task-header): add padding to align task header values](https://github.com/RooCodeInc/Roo-Code/pull/1315) — `RooCodeInc/Roo-Code`
 - [feat: update virtual id for extended output 128k claude](https://github.com/RooCodeInc/Roo-Code/pull/1327) — `RooCodeInc/Roo-Code`
+- [memo: add forward engineering 2024-2025](https://github.com/dwarvesf/brainery/pull/149) — `dwarvesf/brainery`
+- [fix: JSON schema issue with gemini tool calls](https://github.com/continuedev/continue/pull/3851) — `continuedev/continue`
 - [style: clean up chat row and api provider double scroll](https://github.com/RooCodeInc/Roo-Code/pull/484) — `RooCodeInc/Roo-Code`
 - [chore: add gemini flash thinking 01-21](https://github.com/RooCodeInc/Roo-Code/pull/480) — `RooCodeInc/Roo-Code`
 - [fix: avoid deleting configs if the currentApiConfigName is the same](https://github.com/RooCodeInc/Roo-Code/pull/481) — `RooCodeInc/Roo-Code`
 - [style: Align text and button in user input box](https://github.com/RooCodeInc/Roo-Code/pull/478) — `RooCodeInc/Roo-Code`
-- [feat: add OpenAI's new structured output API](https://github.com/brainlid/langchain/pull/180) — `brainlid/langchain`
 - [chore: add ai ruby travel assistant case study](https://github.com/dwarvesf/research/pull/437) — `dwarvesf/research`
 - [fix: default to False if stream is unavailable](https://github.com/open-webui/open-webui/pull/6261) — `open-webui/open-webui`
+- [feat: add OpenAI's new structured output API](https://github.com/brainlid/langchain/pull/180) — `brainlid/langchain`
+- [memo: journey of thought prompting](https://github.com/dwarvesf/research/pull/359) — `dwarvesf/research`
+- [chore: migrate to mix project](https://github.com/dwarvesf/memo.d.foundation/pull/22) — `dwarvesf/memo.d.foundation`
+- [feat(memo): local search engine on memo](https://github.com/dwarvesf/research/pull/324) — `dwarvesf/research`
+- [feat(memo): add post on building tools with Dify](https://github.com/dwarvesf/research/pull/321) — `dwarvesf/research`
+- [memo: add fleeting note on RAPTOR](https://github.com/dwarvesf/research/pull/314) — `dwarvesf/research`
+- [fix: image error in unstake section of earning from staking dfg post](https://github.com/dwarvesf/research/pull/312) — `dwarvesf/research`
 - [feat: add devbox](https://github.com/dwarvesf/chatbot-builder/pull/3) — `dwarvesf/chatbot-builder`
 - [fix: frontmatter parsing for key items after array objects](https://github.com/dwarvesf/handbook/pull/35) — `dwarvesf/handbook`
 - [refactor: compress images and update links](https://github.com/dwarvesf/handbook/pull/34) — `dwarvesf/handbook`
+- [feat: allow headers from openapi](https://github.com/dwarvesf/nextjs-boilerplate/pull/41) — `dwarvesf/nextjs-boilerplate`
 - [chore: update image location standard](https://github.com/dwarvesf/handbook/pull/32) — `dwarvesf/handbook`
 - [fix: images](https://github.com/dwarvesf/brainery/pull/23) — `dwarvesf/brainery`
 - [docs: update project delivery images](https://github.com/dwarvesf/brainery/pull/13) — `dwarvesf/brainery`
 - [chore: update common-component for example My + Minh](https://github.com/dwarvesf/brainery/pull/8) — `dwarvesf/brainery`
-- [feat: add devbox](https://github.com/dwarvesf/memo.d.foundation/pull/6) — `dwarvesf/memo.d.foundation`
 - [chore: update frontmatter and assets for note.d](https://github.com/dwarvesf/playbook/pull/67) — `dwarvesf/playbook`
+- [feat: add devbox](https://github.com/dwarvesf/memo.d.foundation/pull/6) — `dwarvesf/memo.d.foundation`
+- [feat: add devcontainer](https://github.com/dwarvesf/nextjs-boilerplate/pull/40) — `dwarvesf/nextjs-boilerplate`
 - [docs: add basic documentation for final project](https://github.com/dwarvesf/df-frontend-2023/pull/18) — `dwarvesf/df-frontend-2023`
+- [backend: SQL Sargable Queries and Their Impact on Database Performance](https://github.com/dwarvesf/research/pull/233) — `dwarvesf/research`
+- [backend: SQL and how it relates to Disk Reads and Writes](https://github.com/dwarvesf/research/pull/230) — `dwarvesf/research`
+- [ai: story map for LLMs](https://github.com/dwarvesf/research/pull/224) — `dwarvesf/research`
+- [ai: Working with Langchain document loaders](https://github.com/dwarvesf/research/pull/183) — `dwarvesf/research`
+- [ai: Workaround with OpenAI's token limit](https://github.com/dwarvesf/research/pull/182) — `dwarvesf/research`
 - [feat: bfs algo shortest path](https://github.com/baenv/database-concurrency/pull/14) — `baenv/database-concurrency`
 - [feat: add check in out apis](https://github.com/baenv/database-concurrency/pull/13) — `baenv/database-concurrency`
 - [feat: implement transducer on book api](https://github.com/baenv/database-concurrency/pull/4) — `baenv/database-concurrency`
 - [feat: instantiate transducer for booking](https://github.com/baenv/database-concurrency/pull/1) — `baenv/database-concurrency`
+- [refactor: add github_id to frontmatter](https://github.com/dwarvesf/research/pull/150) — `dwarvesf/research`
 - [docs: label frontmatter and create basic MOC for Blockchain](https://github.com/dwarvesf/research/pull/77) — `dwarvesf/research`
+- [chore: remove all personal and archived notes](https://github.com/dwarvesf/research/pull/137) — `dwarvesf/research`
 - [feat: brainery submission discord](https://github.com/dwarvesf/research/pull/140) — `dwarvesf/research`
-- [feat: add dataview charts report and csv export](https://github.com/dwarvesf/research/pull/138) — `dwarvesf/research`
 - [feat: allow cross file templater update](https://github.com/dwarvesf/research/pull/139) — `dwarvesf/research`
+- [feat: add dataview charts report and csv export](https://github.com/dwarvesf/research/pull/138) — `dwarvesf/research`
+- [chore: update frontmatter reports](https://github.com/dwarvesf/research/pull/120) — `dwarvesf/research`
+- [docs: add dataview reports for brainery + fleeting notes](https://github.com/dwarvesf/research/pull/113) — `dwarvesf/research`
 - [docs: add extra areas to help modernize setup practices](https://github.com/dwarvesf/playbook/pull/60) — `dwarvesf/playbook`
+- [writing: the six lines of gold](https://github.com/dwarvesf/research/pull/103) — `dwarvesf/research`
+- [chore: add dates and local images from imgur](https://github.com/dwarvesf/research/pull/99) — `dwarvesf/research`
 - [feat: add local images plugin](https://github.com/dwarvesf/research/pull/97) — `dwarvesf/research`
 - [docs: add incident management and postmortem docs](https://github.com/dwarvesf/playbook/pull/55) — `dwarvesf/playbook`
+- [chore: add obsidian config files](https://github.com/dwarvesf/research/pull/94) — `dwarvesf/research`
+- [docs: add moc and contributing docs](https://github.com/dwarvesf/research/pull/91) — `dwarvesf/research`
 - [docs: update tech radar to reflect new changes](https://github.com/dwarvesf/handbook/pull/25) — `dwarvesf/handbook`
+- [docs: create templates and generate MOCs from templater + dataview](https://github.com/dwarvesf/research/pull/68) — `dwarvesf/research`
 - [engineering: double-entry accounting](https://github.com/dwarvesf/research/pull/69) — `dwarvesf/research`
+- [docs: update nested folder notice](https://github.com/dwarvesf/research/pull/56) — `dwarvesf/research`
+- [engineering: finite-state transducers + mealy and moore machines](https://github.com/dwarvesf/research/pull/41) — `dwarvesf/research`
+- [chore: update convention details pr commit](https://github.com/dwarvesf/research/pull/38) — `dwarvesf/research`
+- [docs: create CONTRIBUTING document](https://github.com/dwarvesf/research/pull/23) — `dwarvesf/research`
+- [engineering: introductory articles on state machines](https://github.com/dwarvesf/research/pull/22) — `dwarvesf/research`
+- [writing: question tree](https://github.com/dwarvesf/research/pull/19) — `dwarvesf/research`
+- [engineering: service-based architecture](https://github.com/dwarvesf/research/pull/17) — `dwarvesf/research`
 - [fix: append author name for C4 diagrams](https://github.com/dwarvesf/research/pull/18) — `dwarvesf/research`
+- [engineering: brief intro to c4 diagrams](https://github.com/dwarvesf/research/pull/16) — `dwarvesf/research`
+- [writing: transpose SEL technique from software modeling](https://github.com/dwarvesf/research/pull/8) — `dwarvesf/research`
+- [rollout: import public knowledge from our honorary hall](https://github.com/dwarvesf/research/pull/4) — `dwarvesf/research`
 - [fix: mistyping of stream](https://github.com/knex/knex/pull/4400) — `knex/knex`
 - [fix: minor style tag highlight on last pattern](https://github.com/iFwu/vscode-styled-jsx/pull/24) — `iFwu/vscode-styled-jsx`
 - [feat: allow thunked objects to be spreadable](https://github.com/robotroutine/scriptum/pull/175) — `robotroutine/scriptum`
@@ -318,24 +318,24 @@
 - [Update Inno Setup to 0.46](https://github.com/ScoopInstaller/Scoop/pull/833) — `ScoopInstaller/Scoop`
 - [Update hub to 2.2.3](https://github.com/ScoopInstaller/Scoop/pull/831) — `ScoopInstaller/Scoop`
 - [Update Groovy to 2.4.6](https://github.com/ScoopInstaller/Scoop/pull/830) — `ScoopInstaller/Scoop`
-- [Update casperjs to 1.1.1](https://github.com/ScoopInstaller/Scoop/pull/815) — `ScoopInstaller/Scoop`
-- [Update cmake to 3.5.2](https://github.com/ScoopInstaller/Scoop/pull/816) — `ScoopInstaller/Scoop`
-- [Update dig (BIND9) to 9.9.9](https://github.com/ScoopInstaller/Scoop/pull/817) — `ScoopInstaller/Scoop`
-- [Update doxygen to 1.8.11](https://github.com/ScoopInstaller/Scoop/pull/818) — `ScoopInstaller/Scoop`
-- [Update Far Manager to 3.0.4545](https://github.com/ScoopInstaller/Scoop/pull/819) — `ScoopInstaller/Scoop`
-- [Update Ghostscript to 9.19](https://github.com/ScoopInstaller/Scoop/pull/820) — `ScoopInstaller/Scoop`
-- [Update git-lfs to 1.2.0](https://github.com/ScoopInstaller/Scoop/pull/821) — `ScoopInstaller/Scoop`
-- [Update git-up to 1.4.0](https://github.com/ScoopInstaller/Scoop/pull/822) — `ScoopInstaller/Scoop`
-- [Update Elixir to 1.2.5](https://github.com/ScoopInstaller/Scoop/pull/823) — `ScoopInstaller/Scoop`
 - [Update glide to 0.10.2](https://github.com/ScoopInstaller/Scoop/pull/824) — `ScoopInstaller/Scoop`
+- [Update Elixir to 1.2.5](https://github.com/ScoopInstaller/Scoop/pull/823) — `ScoopInstaller/Scoop`
+- [Update git-up to 1.4.0](https://github.com/ScoopInstaller/Scoop/pull/822) — `ScoopInstaller/Scoop`
+- [Update git-lfs to 1.2.0](https://github.com/ScoopInstaller/Scoop/pull/821) — `ScoopInstaller/Scoop`
+- [Update Ghostscript to 9.19](https://github.com/ScoopInstaller/Scoop/pull/820) — `ScoopInstaller/Scoop`
+- [Update Far Manager to 3.0.4545](https://github.com/ScoopInstaller/Scoop/pull/819) — `ScoopInstaller/Scoop`
+- [Update doxygen to 1.8.11](https://github.com/ScoopInstaller/Scoop/pull/818) — `ScoopInstaller/Scoop`
+- [Update dig (BIND9) to 9.9.9](https://github.com/ScoopInstaller/Scoop/pull/817) — `ScoopInstaller/Scoop`
+- [Update cmake to 3.5.2](https://github.com/ScoopInstaller/Scoop/pull/816) — `ScoopInstaller/Scoop`
+- [Update casperjs to 1.1.1](https://github.com/ScoopInstaller/Scoop/pull/815) — `ScoopInstaller/Scoop`
 - [Update BFG to 1.12.12](https://github.com/ScoopInstaller/Scoop/pull/814) — `ScoopInstaller/Scoop`
 - [Update Apache Ant to 1.9.7](https://github.com/ScoopInstaller/Scoop/pull/813) — `ScoopInstaller/Scoop`
 - [Update aria2 to 1.22.0](https://github.com/ScoopInstaller/Scoop/pull/812) — `ScoopInstaller/Scoop`
+- [Update Premake (alpha) to 5.0.0-alpha8](https://github.com/ScoopInstaller/Scoop/pull/811) — `ScoopInstaller/Scoop`
+- [Update MySQL to 5.7.12](https://github.com/ScoopInstaller/Scoop/pull/810) — `ScoopInstaller/Scoop`
+- [Update Git with OpenSSH to version 2.8.2.windows.1](https://github.com/ScoopInstaller/Scoop/pull/807) — `ScoopInstaller/Scoop`
 - [Update Git to version 2.8.2.windows.1](https://github.com/ScoopInstaller/Scoop/pull/808) — `ScoopInstaller/Scoop`
 - [Update FFmpeg to version 2016-04-28](https://github.com/ScoopInstaller/Scoop/pull/809) — `ScoopInstaller/Scoop`
-- [Update MySQL to 5.7.12](https://github.com/ScoopInstaller/Scoop/pull/810) — `ScoopInstaller/Scoop`
-- [Update Premake (alpha) to 5.0.0-alpha8](https://github.com/ScoopInstaller/Scoop/pull/811) — `ScoopInstaller/Scoop`
-- [Update Git with OpenSSH to version 2.8.2.windows.1](https://github.com/ScoopInstaller/Scoop/pull/807) — `ScoopInstaller/Scoop`
 
 </details>
 <!-- AUTO-GENERATED:CONTRIBUTIONS:END -->
