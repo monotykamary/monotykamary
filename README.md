@@ -106,7 +106,6 @@
 
 ### 🔓 Open Pull Requests
 
-- [feat(neuralwatt): add GLM 5.2 Fast variant](https://github.com/anomalyco/models.dev/pull/2662) — `anomalyco/models.dev`
 - [feat: implement devcontainer stop and down commands](https://github.com/devcontainers/cli/pull/1041) — `devcontainers/cli`
 - [perf: make loadCodePreviewSettings non-blocking in session_start](https://github.com/mattleong/pi-code-previews/pull/14) — `mattleong/pi-code-previews`
 - [fix: prevent re-entrant event loop hang in main process (18s freeze)](https://github.com/SuperCmdLabs/SuperCmd/pull/388) — `SuperCmdLabs/SuperCmd`
