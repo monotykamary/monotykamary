@@ -35,6 +35,7 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
+- 🌿 **[pi-branch-cost-footer](https://github.com/monotykamary/pi-branch-cost-footer)** - pi footer that shows cumulative token usage and cost for the current session branch only, not the whole session.
 - ⏳ **[pi-cost-backoff](https://github.com/monotykamary/pi-cost-backoff)** - Exponential backoff for pi when $/Mtok or $/min exceeds your cap. Companion to pi-tps.
 - 🏷️ **[pi-namespace](https://github.com/monotykamary/pi-namespace)** - Namespace tools and skills in pi — group tools by extension with configurable prefix rewriting.
 - 🩹 **[pi-tool-repair](https://github.com/monotykamary/pi-tool-repair)** - Validate-then-repair extension for pi — fixes common LLM tool-call mistakes (null fields, stringified arrays, wrong field names, anchor bleed) before tools execute.
