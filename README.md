@@ -77,7 +77,6 @@
 - 🔘 **[pi-toggle-skills](https://github.com/monotykamary/pi-toggle-skills)** - Toggle skill visibility in pi's system prompt — flip disable-model-invocation on skills via an interactive TUI
 - ⌨️ **[pi-double-esc](https://github.com/monotykamary/pi-double-esc)** - Prevent accidental Escape from aborting the LLM — requires double-press to interrupt while streaming
 - 🖼️ **[pi-warp-kitty-images](https://github.com/monotykamary/pi-warp-kitty-images)** - Enable Kitty image protocol for Warp terminal in pi's TUI.
-- 🖼️ **[pi-localterm-kitty-images](https://github.com/monotykamary/pi-localterm-kitty-images)** - Enable Kitty image protocol for localterm in pi's TUI.
 
 ### Developer Tools
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
