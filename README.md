@@ -35,6 +35,7 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
+- 🧾 **[pi-ledger](https://github.com/inloopstudio-team/pi-ledger)** - Billing engine for the serverless agency — meters agentic dev work like cloud compute (per-invocation, duration-based, scale-to-zero idle) and invoices it like a timesheet with an invoice-grade HTML receipt.
 - 🌿 **[pi-branch-cost-footer](https://github.com/monotykamary/pi-branch-cost-footer)** - pi footer that shows cumulative token usage and cost for the current session branch only, not the whole session.
 - ⏳ **[pi-cost-backoff](https://github.com/monotykamary/pi-cost-backoff)** - Exponential backoff for pi when $/Mtok or $/min exceeds your cap. Companion to pi-tps.
 - 🏷️ **[pi-namespace](https://github.com/monotykamary/pi-namespace)** - Namespace tools and skills in pi — group tools by extension with configurable prefix rewriting.
