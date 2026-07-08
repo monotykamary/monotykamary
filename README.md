@@ -137,7 +137,7 @@
 - [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
 - [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 <details>
-<summary>Show 197 more merged PRs</summary>
+<summary>Show 198 more merged PRs</summary>
 
 - [fix: replace prepare with prepack to fix git install](https://github.com/mattleong/pi-code-previews/pull/8) — `mattleong/pi-code-previews`
 - [fix(lifecycle): run deferred side effects directly after commit](https://github.com/inloopstudio/fosm-rails/pull/5) — `inloopstudio/fosm-rails`
@@ -162,6 +162,7 @@
 - [fix: ensure kimi-for-coding plan has thinking on by default for k2p5](https://github.com/anomalyco/opencode/pull/12147) — `anomalyco/opencode`
 - [feat(synthetic): update Kimi K2.5 model configuration](https://github.com/anomalyco/models.dev/pull/747) — `anomalyco/models.dev`
 - [fix(employee): use latest payout for check-in](https://github.com/dwarvesf/fortress-api/pull/805) — `dwarvesf/fortress-api`
+- [feat(employee): gate office check-in by notion payout](https://github.com/dwarvesf/fortress-api/pull/804) — `dwarvesf/fortress-api`
 - [feat: Add Synthetic provider support](https://github.com/steipete/CodexBar/pull/171) — `steipete/CodexBar`
 - [feat: add optional S3 endpoint support](https://github.com/andrii-kryvoviaz/slink/pull/116) — `andrii-kryvoviaz/slink`
 - [chore: update repository name in install script](https://github.com/anomalyco/opentui/pull/503) — `anomalyco/opentui`
