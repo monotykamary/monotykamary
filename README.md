@@ -35,6 +35,7 @@
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
 
+- 🧵 **[pi-fabric](https://github.com/monotykamary/pi-fabric)** - A programmable tool and agent runtime for pi — type-checked code mode for tools, MCP, agents, workflows, persistent actors, durable mesh, councils, and recursion.
 - 🧾 **[pi-ledger](https://github.com/inloopstudio-team/pi-ledger)** - Billing engine for the serverless agency — meters agentic dev work like cloud compute (per-invocation, duration-based, scale-to-zero idle) and invoices it like a timesheet with an invoice-grade HTML receipt.
 - 🌿 **[pi-branch-cost-footer](https://github.com/monotykamary/pi-branch-cost-footer)** - pi footer that shows cumulative token usage and cost for the current session branch only, not the whole session.
 - ⏳ **[pi-cost-backoff](https://github.com/monotykamary/pi-cost-backoff)** - Exponential backoff for pi when $/Mtok or $/min exceeds your cap. Companion to pi-tps.
@@ -353,4 +354,4 @@
 
 ---
 
-*268 public repositories • Building in the open*
+*272 public repositories • Building in the open*
