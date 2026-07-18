@@ -108,6 +108,7 @@
 
 ### 🔓 Open Pull Requests
 
+- [feat: add clickable pane links and agent suggestions](https://github.com/dwarvesf/herdr-quicklook/pull/22) — `dwarvesf/herdr-quicklook`
 - [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
 - [fix: respect user's minimumKeyTime for modifier-only hotkeys](https://github.com/kitlangton/Hex/pull/241) — `kitlangton/Hex`
 - [fix: prevent re-entrant event loop hang in main process (18s freeze)](https://github.com/SuperCmdLabs/SuperCmd/pull/388) — `SuperCmdLabs/SuperCmd`
