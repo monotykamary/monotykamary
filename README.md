@@ -108,7 +108,6 @@
 
 ### 🔓 Open Pull Requests
 
-- [feat: add clickable pane links and agent suggestions](https://github.com/dwarvesf/herdr-quicklook/pull/22) — `dwarvesf/herdr-quicklook`
 - [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
 - [fix: respect user's minimumKeyTime for modifier-only hotkeys](https://github.com/kitlangton/Hex/pull/241) — `kitlangton/Hex`
 - [fix: prevent re-entrant event loop hang in main process (18s freeze)](https://github.com/SuperCmdLabs/SuperCmd/pull/388) — `SuperCmdLabs/SuperCmd`
@@ -118,6 +117,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [feat: add clickable pane links and agent suggestions](https://github.com/dwarvesf/herdr-quicklook/pull/22) — `dwarvesf/herdr-quicklook`
 - [chore(deps): bump all packages to latest majors + migrate Next 16 / ESLint / TS 6 stack](https://github.com/dwarvesf/memo.d.foundation/pull/300) — `dwarvesf/memo.d.foundation`
 - [feat(neuralwatt): expose full GLM 5.2 reasoning effort scale](https://github.com/anomalyco/models.dev/pull/2645) — `anomalyco/models.dev`
 - [feat(neuralwatt): add GLM 5.2 and retire MiniMax M2.5, Devstral, GPT OSS 20B](https://github.com/anomalyco/models.dev/pull/2636) — `anomalyco/models.dev`
@@ -137,10 +137,10 @@
 - [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
 - [fix(native): update FluidAudio 0.12.4 → 0.14.4 for Swift 6.3 compatibility](https://github.com/SuperCmdLabs/SuperCmd/pull/377) — `SuperCmdLabs/SuperCmd`
 - [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
-- [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 <details>
-<summary>Show 198 more merged PRs</summary>
+<summary>Show 199 more merged PRs</summary>
 
+- [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 - [fix: replace prepare with prepack to fix git install](https://github.com/mattleong/pi-code-previews/pull/8) — `mattleong/pi-code-previews`
 - [fix(lifecycle): run deferred side effects directly after commit](https://github.com/inloopstudio/fosm-rails/pull/5) — `inloopstudio/fosm-rails`
 - [feat(daemon): close pi adapter parity gaps — imagePaths, extraAllowedDirs, error events, sendAgentEvent routing](https://github.com/nexu-io/open-design/pull/763) — `nexu-io/open-design`
