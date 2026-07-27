@@ -58,6 +58,7 @@
 - 🔗 **[pi-umans-provider](https://github.com/monotykamary/pi-umans-provider)** - UMANS provider extension for pi — Access Kimi K2.6, GLM 5.1, Qwen 3.6, and coding-optimized models through the UMANS API.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
+- 🌐 **[pi-zyloo-provider](https://github.com/monotykamary/pi-zyloo-provider)** - Zyloo provider extension for pi - Access Claude, GPT, Gemini, Grok, Kimi, GLM, DeepSeek, Qwen and MiniMax through the Zyloo OpenAI-compatible API
 - 🗜️ **[pi-vcc](https://github.com/monotykamary/pi-vcc)** — *Fork* — Smart, Fast & Lossless session compaction for Pi. No LLM calls — produces structured, transcript-preserving summaries using pure extraction and formatting.
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
