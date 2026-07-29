@@ -42,27 +42,10 @@
 - ⏳ **[pi-cost-backoff](https://github.com/monotykamary/pi-cost-backoff)** - Exponential backoff for pi when $/Mtok or $/min exceeds your cap. Companion to pi-tps.
 - 🏷️ **[pi-namespace](https://github.com/monotykamary/pi-namespace)** - Namespace tools and skills in pi — group tools by extension with configurable prefix rewriting.
 - 🩹 **[pi-tool-repair](https://github.com/monotykamary/pi-tool-repair)** - Validate-then-repair extension for pi — fixes common LLM tool-call mistakes (null fields, stringified arrays, wrong field names, anchor bleed) before tools execute.
-- ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
-- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
 - 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
-- ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
-- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
-- 🐹 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
-- 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
-- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
-- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
 - ⚡ **[pi-fast-resume](https://github.com/monotykamary/pi-fast-resume)** - ⚡ Instant session picker for pi — reads 16KB per file instead of the full JSONL, first results in 6ms
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
-- 🐊 **[pi-makora-provider](https://github.com/monotykamary/pi-makora-provider)** - Makora provider extension for pi — access DeepSeek V4, GLM 5.1, Kimi K2.6, Llama 3.3, Qwen 3.6, and more through the Makora inference API
-- 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
-- 🔗 **[pi-umans-provider](https://github.com/monotykamary/pi-umans-provider)** - UMANS provider extension for pi — Access Kimi K2.6, GLM 5.1, Qwen 3.6, and coding-optimized models through the UMANS API.
-- 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
-- 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
-- 🌐 **[pi-zyloo-provider](https://github.com/monotykamary/pi-zyloo-provider)** - Zyloo provider extension for pi - Access Claude, GPT, Gemini, Grok, Kimi, GLM, DeepSeek, Qwen and MiniMax through the Zyloo OpenAI-compatible API
-- 🪐 **[pi-merius-provider](https://github.com/monotykamary/pi-merius-provider)** - Merius provider extension for pi - Access DeepSeek, GLM, Kimi, MiniMax, and more through Merius's OpenAI-compatible API on its own GPUs
 - 🗜️ **[pi-vcc](https://github.com/monotykamary/pi-vcc)** — *Fork* — Smart, Fast & Lossless session compaction for Pi. No LLM calls — produces structured, transcript-preserving summaries using pure extraction and formatting.
-- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
-- 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
 - 🐝 **[pi-messenger-swarm](https://github.com/monotykamary/pi-messenger-swarm)** - Multi-agent coordination and messaging system.
 - 🐎 **[pi-startup-tracer](https://github.com/monotykamary/pi-startup-tracer)** - Trace pi extension lifecycle timing to identify startup and resume bottlenecks
@@ -78,10 +61,31 @@
 - 🙈 **[pi-hide-providers](https://github.com/monotykamary/pi-hide-providers)** - Hide providers and models from pi's model selector — filter the /model list and Ctrl+P cycling via a configurable blocklist
 - 👁️ **[pi-vision-handoff](https://github.com/monotykamary/pi-vision-handoff)** - Give text-only pi models vision — describe images with a vision model you pick via an interactive picker, then hand off the text description to non-vision models
 - 🔄 **[pi-model-sort](https://github.com/monotykamary/pi-model-sort)** - Sort models in pi's /model selector by last usage — most recently used models appear first
-- ✨ **[pi-hypercharm-provider](https://github.com/monotykamary/pi-hypercharm-provider)** - HyperCharm provider extension for pi — Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Gemma, GPT-OSS, and Llama models through the Charm Hyper API
 - 🔘 **[pi-toggle-skills](https://github.com/monotykamary/pi-toggle-skills)** - Toggle skill visibility in pi's system prompt — flip disable-model-invocation on skills via an interactive TUI
 - ⌨️ **[pi-double-esc](https://github.com/monotykamary/pi-double-esc)** - Prevent accidental Escape from aborting the LLM — requires double-press to interrupt while streaming
 - 🖼️ **[pi-warp-kitty-images](https://github.com/monotykamary/pi-warp-kitty-images)** - Enable Kitty image protocol for Warp terminal in pi's TUI.
+
+### pi Provider Extensions
+*Model provider integrations for the pi coding agent.*
+
+- ⚡ **[pi-io-provider](https://github.com/monotykamary/pi-io-provider)** - IO Intelligence as a custom model provider for pi.
+- ⚡ **[pi-neuralwatt-provider](https://github.com/monotykamary/pi-neuralwatt-provider)** - Neuralwatt as a custom model provider for pi.
+- ⛵ **[pi-parasail-provider](https://github.com/monotykamary/pi-parasail-provider)** - Access DeepSeek, Qwen, GLM, Kimi, Llama, Gemma, Mistral and more through the Parasail API.
+- 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
+- 🐹 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
+- 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
+- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
+- 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
+- 🐊 **[pi-makora-provider](https://github.com/monotykamary/pi-makora-provider)** - Makora provider extension for pi — access DeepSeek V4, GLM 5.1, Kimi K2.6, Llama 3.3, Qwen 3.6, and more through the Makora inference API
+- 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
+- 🔗 **[pi-umans-provider](https://github.com/monotykamary/pi-umans-provider)** - UMANS provider extension for pi — Access Kimi K2.6, GLM 5.1, Qwen 3.6, and coding-optimized models through the UMANS API.
+- 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
+- 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
+- 🌐 **[pi-zyloo-provider](https://github.com/monotykamary/pi-zyloo-provider)** - Zyloo provider extension for pi - Access Claude, GPT, Gemini, Grok, Kimi, GLM, DeepSeek, Qwen and MiniMax through the Zyloo OpenAI-compatible API
+- 🪐 **[pi-merius-provider](https://github.com/monotykamary/pi-merius-provider)** - Merius provider extension for pi - Access DeepSeek, GLM, Kimi, MiniMax, and more through Merius's OpenAI-compatible API on its own GPUs
+- 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
+- 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
+- ✨ **[pi-hypercharm-provider](https://github.com/monotykamary/pi-hypercharm-provider)** - HyperCharm provider extension for pi — Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Gemma, GPT-OSS, and Llama models through the Charm Hyper API
 
 ### Developer Tools
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
