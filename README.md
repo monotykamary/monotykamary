@@ -115,6 +115,9 @@
 
 ### 🔓 Open Pull Requests
 
+- [feat: hash-chained session notarization with Ed25519 seals](https://github.com/inloopstudio-team/pi-ledger/pull/1) — `inloopstudio-team/pi-ledger`
+- [feat: bake pi agency toolchain (pi, pi-ledger, pi-tps) into runner image](https://github.com/inloopstudio-team/github-runner/pull/1) — `inloopstudio-team/github-runner`
+- [feat(desktop): schema-certified env scaffolding for agent snapshots](https://github.com/block/buzz/pull/3845) — `block/buzz`
 - [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
 - [fix: respect user's minimumKeyTime for modifier-only hotkeys](https://github.com/kitlangton/Hex/pull/241) — `kitlangton/Hex`
 - [fix: prevent re-entrant event loop hang in main process (18s freeze)](https://github.com/SuperCmdLabs/SuperCmd/pull/388) — `SuperCmdLabs/SuperCmd`
@@ -124,6 +127,8 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix: finish presence evidence persistence + hardening](https://github.com/parolkar/proofofpresence/pull/1) — `parolkar/proofofpresence`
+- [feat: World ID 4.0 flow + fix dead callback_phase](https://github.com/parolkar/omniauth-worldid/pull/1) — `parolkar/omniauth-worldid`
 - [feat: add clickable pane links and agent suggestions](https://github.com/dwarvesf/herdr-quicklook/pull/22) — `dwarvesf/herdr-quicklook`
 - [chore(deps): bump all packages to latest majors + migrate Next 16 / ESLint / TS 6 stack](https://github.com/dwarvesf/memo.d.foundation/pull/300) — `dwarvesf/memo.d.foundation`
 - [feat(neuralwatt): expose full GLM 5.2 reasoning effort scale](https://github.com/anomalyco/models.dev/pull/2645) — `anomalyco/models.dev`
@@ -142,11 +147,11 @@
 - [fix(neuralwatt): sync context window and output limits with upstream API](https://github.com/anomalyco/models.dev/pull/1792) — `anomalyco/models.dev`
 - [feat: accept discord_username from caller for office check-in](https://github.com/dwarvesf/fortress-api/pull/807) — `dwarvesf/fortress-api`
 - [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
+<details>
+<summary>Show 201 more merged PRs</summary>
+
 - [fix(native): update FluidAudio 0.12.4 → 0.14.4 for Swift 6.3 compatibility](https://github.com/SuperCmdLabs/SuperCmd/pull/377) — `SuperCmdLabs/SuperCmd`
 - [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
-<details>
-<summary>Show 199 more merged PRs</summary>
-
 - [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
 - [fix: replace prepare with prepack to fix git install](https://github.com/mattleong/pi-code-previews/pull/8) — `mattleong/pi-code-previews`
 - [fix(lifecycle): run deferred side effects directly after commit](https://github.com/inloopstudio/fosm-rails/pull/5) — `inloopstudio/fosm-rails`
