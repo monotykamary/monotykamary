@@ -114,8 +114,6 @@
 
 ### 🔓 Open Pull Requests
 
-- [feat: hash-chained session notarization with Ed25519 seals](https://github.com/inloopstudio-team/pi-ledger/pull/1) — `inloopstudio-team/pi-ledger`
-- [feat: bake pi agency toolchain (pi, pi-ledger, pi-tps) into runner image](https://github.com/inloopstudio-team/github-runner/pull/1) — `inloopstudio-team/github-runner`
 - [feat(desktop): schema-certified env scaffolding for agent snapshots](https://github.com/block/buzz/pull/3845) — `block/buzz`
 - [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
 - [fix: respect user's minimumKeyTime for modifier-only hotkeys](https://github.com/kitlangton/Hex/pull/241) — `kitlangton/Hex`
@@ -126,6 +124,8 @@
 
 ### ✅ Merged Pull Requests
 
+- [feat: bake pi agency toolchain (pi, pi-ledger, pi-tps) into runner image](https://github.com/inloopstudio-team/github-runner/pull/1) — `inloopstudio-team/github-runner`
+- [feat: hash-chained session notarization with Ed25519 seals](https://github.com/inloopstudio-team/pi-ledger/pull/1) — `inloopstudio-team/pi-ledger`
 - [fix: finish presence evidence persistence + hardening](https://github.com/parolkar/proofofpresence/pull/1) — `parolkar/proofofpresence`
 - [feat: World ID 4.0 flow + fix dead callback_phase](https://github.com/parolkar/omniauth-worldid/pull/1) — `parolkar/omniauth-worldid`
 - [feat: add clickable pane links and agent suggestions](https://github.com/dwarvesf/herdr-quicklook/pull/22) — `dwarvesf/herdr-quicklook`
@@ -144,11 +144,11 @@
 - [fix(diff): remove uncolored gap at right edge of diff background](https://github.com/mattleong/pi-code-previews/pull/13) — `mattleong/pi-code-previews`
 - [fix: correct searchEntries arg order and add missing bashExecution normalization](https://github.com/sting8k/pi-vcc/pull/8) — `sting8k/pi-vcc`
 - [fix(neuralwatt): sync context window and output limits with upstream API](https://github.com/anomalyco/models.dev/pull/1792) — `anomalyco/models.dev`
+<details>
+<summary>Show 203 more merged PRs</summary>
+
 - [feat: accept discord_username from caller for office check-in](https://github.com/dwarvesf/fortress-api/pull/807) — `dwarvesf/fortress-api`
 - [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
-<details>
-<summary>Show 201 more merged PRs</summary>
-
 - [fix(native): update FluidAudio 0.12.4 → 0.14.4 for Swift 6.3 compatibility](https://github.com/SuperCmdLabs/SuperCmd/pull/377) — `SuperCmdLabs/SuperCmd`
 - [fix(clipboard): use privileged sc-clipboard protocol for image previews in dev mode](https://github.com/SuperCmdLabs/SuperCmd/pull/372) — `SuperCmdLabs/SuperCmd`
 - [fix: correct settings toggle knob alignment for all font sizes](https://github.com/SuperCmdLabs/SuperCmd/pull/373) — `SuperCmdLabs/SuperCmd`
