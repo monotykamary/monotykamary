@@ -36,6 +36,7 @@
 *My collection of extensions for the pi coding agent.*
 
 - 🧵 **[pi-fabric](https://github.com/monotykamary/pi-fabric)** - A programmable tool and agent runtime for pi — type-checked code mode for tools, MCP, agents, workflows, persistent actors, durable mesh, councils, and recursion.
+- 👁️ **[pi-fovea](https://github.com/monotykamary/pi-fovea)** - Token-budgeted repo mapping for pi — foveated heat diffusion over a cross-language code graph: survey, focus, dwell, impact, plus silent turn-sync after every edit.
 - 🛡️ **[pi-streaming-guard](https://github.com/monotykamary/pi-streaming-guard)** - Keep pi's TUI responsive through long thinking traces by reusing stable Markdown work instead of rerendering the entire stream.
 - 🧾 **[pi-ledger](https://github.com/inloopstudio-team/pi-ledger)** - Billing engine for the serverless agency — meters agentic dev work like cloud compute (per-invocation, duration-based, scale-to-zero idle) and invoices it like a timesheet with an invoice-grade HTML receipt.
 - 🌿 **[pi-branch-cost-footer](https://github.com/monotykamary/pi-branch-cost-footer)** - pi footer that shows cumulative token usage and cost for the current session branch only, not the whole session.
