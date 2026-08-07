@@ -25,6 +25,7 @@
 *Independent tools and frameworks I've built.*
 
 - 🖥️ **[localterm](https://github.com/monotykamary/localterm)** — *Fork* — Your terminal should just be a browser tab. Every browser tab is one shell; open a tab to spawn, close it to kill. npm-installable daemon with tailnet, local HTTPS, and loopback surfaces.
+- 📽️ **[jmgo-controller](https://github.com/monotykamary/jmgo-controller)** - Control JMGO projectors from the terminal with a native LAN remote, live state, ADB app management, and verified Google Play APK delivery.
 - 🐚 **[tailscale-shell](https://github.com/monotykamary/tailscale-shell)** - A proxied shell + exit-node picker for Tailscale userspace networking. Egress through Mullvad or your own relay by country, city, or code.
 - 🪟 **[openmux](https://github.com/monotykamary/openmux)** - A simpler multiplexer, built with OpenTUI. Terminal window management reimagined.
 - 📖 **[folio](https://github.com/monotykamary/folio)** - Book PDF pagination using @chenglou/pretext for text measurement and Chrome's native page breaking. Replaces Paged.js.
@@ -367,4 +368,4 @@
 
 ---
 
-*277 public repositories • Building in the open*
+*326 public repositories • Building in the open*
