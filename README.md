@@ -87,6 +87,7 @@
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
 - ✨ **[pi-hypercharm-provider](https://github.com/monotykamary/pi-hypercharm-provider)** - HyperCharm provider extension for pi — Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Gemma, GPT-OSS, and Llama models through the Charm Hyper API
+- ✳️ **[pi-aster-provider](https://github.com/monotykamary/pi-aster-provider)** - Aster provider extension for pi — Access Kimi K3, GLM 5.2, GPT-OSS 120B, and batch models through the Aster API (asterlab.ai)
 
 ### Developer Tools
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
