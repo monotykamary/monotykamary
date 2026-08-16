@@ -37,6 +37,7 @@
 *Native extensions for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent runtime.*
 
 - 🧵 **[dsh-fabric](https://github.com/monotykamary/dsh-fabric)** — Deterministic compaction, checked QuickJS code execution, durable mesh coordination, actor mailboxes, and live Activity + Topology surfaces for DeepSeek Harness.
+- 👁️ **[dsh-fovea](https://github.com/monotykamary/dsh-fovea)** — *Design phase* — DSH-native foveated repository intelligence: token-budgeted sketch, focus, dwell, impact, and transparent turn sync over a cross-language code graph.
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
@@ -375,4 +376,4 @@
 
 ---
 
-*326 public repositories • Building in the open*
+*343 public repositories • Building in the open*
