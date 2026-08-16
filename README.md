@@ -18,12 +18,6 @@
 
 > I do open source while doing dad stuff. Building tools that make mostly my life easier.
 
-## DeepSeek Plugins
-
-*Native extensions for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent runtime.*
-
-- 🧵 **[dsh-fabric](https://github.com/monotykamary/dsh-fabric)** — Deterministic compaction, checked QuickJS code execution, durable mesh coordination, actor mailboxes, and live Activity + Topology surfaces for DeepSeek Harness.
-
 <!-- AUTO-GENERATED:PROJECTS:START -->
 ## Featured Projects
 
@@ -38,6 +32,11 @@
 - ⚡ **[quickbeam-js](https://github.com/monotykamary/quickbeam-js)** - OTP patterns in JavaScript, on the BEAM — Supervisors, GenServers, Registries, Pools, Tasks, and Applications built on QuickBEAM primitives
 - ⚡ **[neuralwatt-energy-status](https://github.com/monotykamary/neuralwatt-energy-status)** - Per-model energy-per-request status for Neuralwatt, as clean JSON. Zero-dependency CLI that scrapes the public, server-rendered energy-pricing page — energy in Wh, request-share, and cache-hit rate per model and token bucket. Installable via curl.
 - 🗺️ **[pi-lilac-tracker](https://github.com/monotykamary/pi-lilac-tracker)** - Live tracker for Lilac's idle-GPU discount tiers — adaptive polling into JSONL history, plus a Mercator map of solar-noon discount zones and a civil-timezone territory overlay.
+
+### DeepSeek Plugins
+*Native extensions for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent runtime.*
+
+- 🧵 **[dsh-fabric](https://github.com/monotykamary/dsh-fabric)** — Deterministic compaction, checked QuickJS code execution, durable mesh coordination, actor mailboxes, and live Activity + Topology surfaces for DeepSeek Harness.
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
