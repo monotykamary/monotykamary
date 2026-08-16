@@ -18,6 +18,12 @@
 
 > I do open source while doing dad stuff. Building tools that make mostly my life easier.
 
+## DeepSeek Plugins
+
+*Native extensions for the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent runtime.*
+
+- 🧵 **[dsh-fabric](https://github.com/monotykamary/dsh-fabric)** — Deterministic compaction, checked QuickJS code execution, durable mesh coordination, actor mailboxes, and live Activity + Topology surfaces for DeepSeek Harness.
+
 <!-- AUTO-GENERATED:PROJECTS:START -->
 ## Featured Projects
 
