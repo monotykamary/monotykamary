@@ -89,7 +89,7 @@
 - 🔗 **[pi-umans-provider](https://github.com/monotykamary/pi-umans-provider)** - UMANS provider extension for pi — Access Kimi K2.6, GLM 5.1, Qwen 3.6, and coding-optimized models through the UMANS API.
 - 🍪 **[pi-wafer-provider](https://github.com/monotykamary/pi-wafer-provider)** - wafer.ai as a custom model provider for pi.
 - 🔌 **[pi-tensorix-provider](https://github.com/monotykamary/pi-tensorix-provider)** - Tensorix provider extension for pi - Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Llama, and more through the Tensorix API
-- 🪐 **[pi-merius-provider](https://github.com/monotykamary/pi-merius-provider)** - Merius provider extension for pi - Access DeepSeek, GLM, Kimi, MiniMax, and more through Merius's OpenAI-compatible API on its own GPUs
+- 🪐 **[pi-tarmis-provider](https://github.com/monotykamary/pi-tarmis-provider)** - Tarmis provider extension for pi - Access DeepSeek, GLM, Kimi, MiniMax, and more through Tarmis's OpenAI-compatible API on its own GPUs
 - 🪻 **[pi-lilac-provider](https://github.com/monotykamary/pi-lilac-provider)** - Access Kimi K2.6, GLM 5.1, and Gemma 4 models through Lilac's OpenAI-compatible API on idle GPUs.
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
 - ✨ **[pi-hypercharm-provider](https://github.com/monotykamary/pi-hypercharm-provider)** - HyperCharm provider extension for pi — Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Gemma, GPT-OSS, and Llama models through the Charm Hyper API
