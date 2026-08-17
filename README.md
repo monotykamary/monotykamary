@@ -24,6 +24,7 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
+- 🔒 **[deepseek-harness](https://github.com/monotykamary/deepseek-harness)** — *Fork* — Privacy- and personally-focused fork of the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent runtime — a plugin-based agent harness on Cordis where everything is a plugin.
 - 🖥️ **[localterm](https://github.com/monotykamary/localterm)** — *Fork* — Your terminal should just be a browser tab. Every browser tab is one shell; open a tab to spawn, close it to kill. npm-installable daemon with tailnet, local HTTPS, and loopback surfaces.
 - 📽️ **[jmgo-controller](https://github.com/monotykamary/jmgo-controller)** - Control JMGO projectors from the terminal with a native LAN remote, live state, ADB app management, and verified Google Play APK delivery.
 - 🐚 **[tailscale-shell](https://github.com/monotykamary/tailscale-shell)** - A proxied shell + exit-node picker for Tailscale userspace networking. Egress through Mullvad or your own relay by country, city, or code.
