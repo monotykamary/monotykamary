@@ -95,6 +95,7 @@
 - 🐋 **[pi-deepseek-provider](https://github.com/monotykamary/pi-deepseek-provider)** - DeepSeek as a custom model provider for pi.
 - ✨ **[pi-hypercharm-provider](https://github.com/monotykamary/pi-hypercharm-provider)** - HyperCharm provider extension for pi — Access DeepSeek, GLM, Kimi, Qwen, MiniMax, Gemma, GPT-OSS, and Llama models through the Charm Hyper API
 - ✳️ **[pi-aster-provider](https://github.com/monotykamary/pi-aster-provider)** - Aster provider extension for pi — Access Kimi K3, GLM 5.2, GPT-OSS 120B, and batch models through the Aster API (asterlab.ai)
+- 🏃 **[pi-runinfra-provider](https://github.com/monotykamary/pi-runinfra-provider)** - RunInfra provider extension for pi — Access DeepSeek V4, Nemotron 3.5 Lightning, and Qwen3.8 models through the RunInfra gateway
 
 ### Developer Tools
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
