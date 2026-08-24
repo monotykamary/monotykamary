@@ -40,6 +40,7 @@
 - 🏭 **[dsh-factory](https://github.com/monotykamary/dsh-factory)** — Durable task and dependency graphs, recurring Agent scheduling, safe checkout lanes, first-class queued discussion, Triage, and artifact review for DeepSeek Harness.
 - 🧵 **[dsh-fabric](https://github.com/monotykamary/dsh-fabric)** — Deterministic compaction, checked QuickJS code execution, durable mesh coordination, actor mailboxes, and live Activity + Topology surfaces for DeepSeek Harness.
 - 👁️ **[dsh-fovea](https://github.com/monotykamary/dsh-fovea)** — Native foveated repository intelligence for DeepSeek Harness: token-budgeted sketch, focus, dwell, and impact over a cross-language code graph, with multi-agent-aware continuous sync.
+- 🩹 **[dsh-tool-repair](https://github.com/monotykamary/dsh-tool-repair)** — Schema-guided tool-call repair for DeepSeek Harness.
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
@@ -380,4 +381,4 @@
 
 ---
 
-*343 public repositories • Building in the open*
+*353 public repositories • Building in the open*
