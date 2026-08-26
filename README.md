@@ -42,6 +42,7 @@
 - 🧵 **[dsh-fabric](https://github.com/monotykamary/dsh-fabric)** — Deterministic compaction, checked QuickJS code execution, durable mesh coordination, actor mailboxes, and live Activity + Topology surfaces for DeepSeek Harness.
 - 👁️ **[dsh-fovea](https://github.com/monotykamary/dsh-fovea)** — Native foveated repository intelligence for DeepSeek Harness: token-budgeted sketch, focus, dwell, and impact over a cross-language code graph, with multi-agent-aware continuous sync.
 - 🩹 **[dsh-tool-repair](https://github.com/monotykamary/dsh-tool-repair)** — Schema-guided tool-call repair for DeepSeek Harness.
+- 👁️ **[dsh-vision-handoff](https://github.com/monotykamary/dsh-vision-handoff)** — Give text-only DeepSeek Harness models vision: describe images with a vision model you pick in Settings, then hand the description to models that can't see.
 
 ### pi Extensions
 *My collection of extensions for the pi coding agent.*
