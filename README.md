@@ -24,6 +24,7 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
+- 🪡 **[heddlework](https://github.com/monotykamary/heddlework)** — *Active development* — A native, harness-neutral workspace for agent sessions, task graphs, diffs, and durable work — Pi first, Codex and Claude next.
 - 🔒 **[deepseek-harness](https://github.com/monotykamary/deepseek-harness)** — *Fork* — Privacy- and personally-focused fork of the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent runtime — a plugin-based agent harness on Cordis where everything is a plugin.
 - 🖥️ **[localterm](https://github.com/monotykamary/localterm)** — *Fork* — Your terminal should just be a browser tab. Every browser tab is one shell; open a tab to spawn, close it to kill. npm-installable daemon with tailnet, local HTTPS, and loopback surfaces.
 - 📽️ **[jmgo-controller](https://github.com/monotykamary/jmgo-controller)** - Control JMGO projectors from the terminal with a native LAN remote, live state, ADB app management, and verified Google Play APK delivery.
@@ -384,4 +385,4 @@
 
 ---
 
-*355 public repositories • Building in the open*
+*358 public repositories • Building in the open*
