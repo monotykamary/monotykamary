@@ -24,6 +24,7 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
+- 🛸 **[pi-better-grok](https://github.com/monotykamary/pi-better-grok)** — *Active development* — Better Grok/xAI for the [pi](https://github.com/earendil-works/pi) coding agent: `/grok-fast` reasoning_effort mode, SuperGrok subscription usage widget, footer polish, and a core-style settings picker. Installable via `pi install npm:@monotykamary/pi-better-grok`.
 - 🪡 **[heddlework](https://github.com/monotykamary/heddlework)** — *Active development* — A native, harness-neutral workspace for agent sessions, task graphs, diffs, and durable work — Pi first, Codex and Claude next.
 - 🔒 **[deepseek-harness](https://github.com/monotykamary/deepseek-harness)** — *Fork* — Privacy- and personally-focused fork of the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent runtime — a plugin-based agent harness on Cordis where everything is a plugin.
 - 🖥️ **[localterm](https://github.com/monotykamary/localterm)** — *Fork* — Your terminal should just be a browser tab. Every browser tab is one shell; open a tab to spawn, close it to kill. npm-installable daemon with tailnet, local HTTPS, and loopback surfaces.
