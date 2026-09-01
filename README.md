@@ -104,6 +104,7 @@
 - ✳️ **[pi-aster-provider](https://github.com/monotykamary/pi-aster-provider)** - Aster provider extension for pi — Access Kimi K3, GLM 5.2, GPT-OSS 120B, and batch models through the Aster API (asterlab.ai)
 - 🏃 **[pi-runinfra-provider](https://github.com/monotykamary/pi-runinfra-provider)** - RunInfra provider extension for pi — Access DeepSeek V4, Nemotron 3.5 Lightning, and Qwen3.8 models through the RunInfra gateway
 - 🔮 **[pi-zro-provider](https://github.com/monotykamary/pi-zro-provider)** - Zro provider extension for pi — GLM-5.2, Kimi K3 & DeepSeek V4 Flash through the Zro inference endpoint
+- 🪸 **[pi-coralbricks-provider](https://github.com/monotykamary/pi-coralbricks-provider)** - CoralBricks provider extension for pi — GLM 5.2/5.3, Kimi K3 & GPT-OSS 120B through Coral's OpenAI-compatible inference gateway with 1M context, synbad-validated streaming repair, and free prompt-cache reads
 
 ### Developer Tools
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
