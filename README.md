@@ -134,6 +134,7 @@
 
 ### 🔓 Open Pull Requests
 
+- [gpui: Support in-place image updates](https://github.com/remorses/zed/pull/4) — `remorses/zed`
 - [feat(desktop): schema-certified env scaffolding for agent snapshots](https://github.com/block/buzz/pull/3845) — `block/buzz`
 - [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
 - [fix: respect user's minimumKeyTime for modifier-only hotkeys](https://github.com/kitlangton/Hex/pull/241) — `kitlangton/Hex`
@@ -144,6 +145,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix(native): deliver onClick from primary mouse-up](https://github.com/remorses/gpuix/pull/43) — `remorses/gpuix`
 - [fix: support dark mode and prerelease DSH installs](https://github.com/Yan-Zero/dsh-codex/pull/2) — `Yan-Zero/dsh-codex`
 - [feat: bake pi agency toolchain (pi, pi-ledger, pi-tps) into runner image](https://github.com/inloopstudio-team/github-runner/pull/1) — `inloopstudio-team/github-runner`
 - [feat: hash-chained session notarization with Ed25519 seals](https://github.com/inloopstudio-team/pi-ledger/pull/1) — `inloopstudio-team/pi-ledger`
@@ -163,10 +165,10 @@
 - [fix(neuralwatt): update Qwen3.6 pricing to match API](https://github.com/anomalyco/models.dev/pull/1834) — `anomalyco/models.dev`
 - [fix(i18n): restore structural parity across all 9 locales](https://github.com/SuperCmdLabs/SuperCmd/pull/403) — `SuperCmdLabs/SuperCmd`
 - [fix(diff): remove uncolored gap at right edge of diff background](https://github.com/mattleong/pi-code-previews/pull/13) — `mattleong/pi-code-previews`
-- [fix: correct searchEntries arg order and add missing bashExecution normalization](https://github.com/sting8k/pi-vcc/pull/8) — `sting8k/pi-vcc`
 <details>
-<summary>Show 204 more merged PRs</summary>
+<summary>Show 205 more merged PRs</summary>
 
+- [fix: correct searchEntries arg order and add missing bashExecution normalization](https://github.com/sting8k/pi-vcc/pull/8) — `sting8k/pi-vcc`
 - [fix(neuralwatt): sync context window and output limits with upstream API](https://github.com/anomalyco/models.dev/pull/1792) — `anomalyco/models.dev`
 - [feat: accept discord_username from caller for office check-in](https://github.com/dwarvesf/fortress-api/pull/807) — `dwarvesf/fortress-api`
 - [fix: prevent flash of unfiltered list when pressing Enter to open app](https://github.com/SuperCmdLabs/SuperCmd/pull/371) — `SuperCmdLabs/SuperCmd`
