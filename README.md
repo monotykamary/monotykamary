@@ -134,6 +134,7 @@
 
 ### 🔓 Open Pull Requests
 
+- [gpui: support embedded dynamic surfaces](https://github.com/remorses/zed/pull/8) — `remorses/zed`
 - [gpui: Support in-place image updates](https://github.com/remorses/zed/pull/4) — `remorses/zed`
 - [feat(desktop): schema-certified env scaffolding for agent snapshots](https://github.com/block/buzz/pull/3845) — `block/buzz`
 - [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
