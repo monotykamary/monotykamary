@@ -107,6 +107,7 @@
 - 🪸 **[pi-coralbricks-provider](https://github.com/monotykamary/pi-coralbricks-provider)** - CoralBricks provider extension for pi — GLM 5.2/5.3, Kimi K3 & GPT-OSS 120B through Coral's OpenAI-compatible inference gateway with 1M context, synbad-validated streaming repair, and free prompt-cache reads
 
 ### Developer Tools
+- 🧭 **[augr-chrome](https://github.com/monotykamary/augr-chrome)** — *Experiment complete* — Replaced Dia's chat with a Chrome extension: tab-aware conversations and browser tools. It succeeded, but proved less useful in real-world scenarios; I now use [browser-harness-js](https://github.com/monotykamary/browser-harness-js) almost exclusively.
 - 🎯 **[vscode-aql](https://github.com/monotykamary/vscode-aql)** - Syntax Highlighting for ArangoDB Query Language (AQL). Available on the VSCode Marketplace.
 - 📑 **[tab-flow-chrome](https://github.com/monotykamary/tab-flow-chrome)** - Chrome extension for managing tabs with workflow automation, dark theme support, and smart organization features.
 - 🔥 **[flame-js](https://github.com/monotykamary/flame-js)** - FLAME-style remote execution for TypeScript with Bun, Effect.ts internals. Distributed computing made simple.
