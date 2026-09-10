@@ -135,6 +135,8 @@
 
 ### 🔓 Open Pull Requests
 
+- [feat(native): add direct image pixel updates](https://github.com/remorses/gpuix/pull/62) — `remorses/gpuix`
+- [feat(native): expose native integration snapshots](https://github.com/remorses/gpuix/pull/61) — `remorses/gpuix`
 - [gpui: support embedded dynamic surfaces](https://github.com/remorses/zed/pull/8) — `remorses/zed`
 - [feat(desktop): schema-certified env scaffolding for agent snapshots](https://github.com/block/buzz/pull/3845) — `block/buzz`
 - [fix: prepend line origin chars in diff.print() output](https://github.com/toss/es-git/pull/213) — `toss/es-git`
