@@ -51,6 +51,7 @@
 - 🛸 **[pi-better-grok](https://github.com/monotykamary/pi-better-grok)** - Better Grok/xAI for the [pi](https://github.com/earendil-works/pi) coding agent: `/grok-fast` reasoning_effort mode, SuperGrok subscription usage widget, footer polish, and a core-style settings picker. Installable via `pi install npm:@monotykamary/pi-better-grok`.
 - 🧵 **[pi-fabric](https://github.com/monotykamary/pi-fabric)** - A programmable tool and agent runtime for pi — type-checked code mode for tools, MCP, agents, workflows, persistent actors, durable mesh, councils, and recursion.
 - 👁️ **[pi-fovea](https://github.com/monotykamary/pi-fovea)** - Token-budgeted repo mapping for pi — foveated heat diffusion over a cross-language code graph: survey, focus, dwell, impact, plus silent turn-sync after every edit.
+- 🗺️ **[pi-contour](https://github.com/monotykamary/pi-contour)** - Evidence-first structural review for pi — immutable patch snapshots, complexity and coupling witnesses, and multiscale heat exposure. Quiet discovery; explicit review checkpoints.
 - 🔀 **[pi-multiprovider](https://github.com/monotykamary/pi-multiprovider)** - Multi-account credential pooling for pi — `/multilogin` for API keys and OAuth, health-aware scheduling, and safe same-provider stream failover without model aliases.
 - 🛡️ **[pi-streaming-guard](https://github.com/monotykamary/pi-streaming-guard)** - Keep pi's TUI responsive through long thinking traces by reusing stable Markdown work instead of rerendering the entire stream.
 - 🧾 **[pi-ledger](https://github.com/inloopstudio-team/pi-ledger)** - Billing engine for the serverless agency — meters agentic dev work like cloud compute (per-invocation, duration-based, scale-to-zero idle) and invoices it like a timesheet with an invoice-grade HTML receipt.
@@ -60,6 +61,7 @@
 - 🩹 **[pi-tool-repair](https://github.com/monotykamary/pi-tool-repair)** - Validate-then-repair extension for pi — fixes common LLM tool-call mistakes (null fields, stringified arrays, wrong field names, anchor bleed) before tools execute.
 - 🌐 **[pi-tps-web](https://github.com/monotykamary/pi-tps-web)** - A web interface to capture pi session customType exports from pi-tps.
 - ⚡ **[pi-fast-resume](https://github.com/monotykamary/pi-fast-resume)** - ⚡ Instant session picker for pi — reads 16KB per file instead of the full JSONL, first results in 6ms
+- 🌲 **[pi-fast-tree](https://github.com/monotykamary/pi-fast-tree)** - Instant `/tree` navigator for pi — slim in-memory projection so fat sessions don't freeze the picker. Installable via `pi install npm:pi-fast-tree`.
 - 📊 **[pi-tps](https://github.com/monotykamary/pi-tps)** - See your LLM generation speed (tokens/second) after every agent turn.
 - 🗜️ **[pi-vcc](https://github.com/monotykamary/pi-vcc)** — *Fork* — Smart, Fast & Lossless session compaction for Pi. No LLM calls — produces structured, transcript-preserving summaries using pure extraction and formatting.
 - 🔁 **[pi-retry](https://github.com/monotykamary/pi-retry)** - Simple retry extension for 400 and 413 errors.
