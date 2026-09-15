@@ -107,6 +107,7 @@
 - 🏃 **[pi-runinfra-provider](https://github.com/monotykamary/pi-runinfra-provider)** - RunInfra provider extension for pi — Access DeepSeek V4, Nemotron 3.5 Lightning, and Qwen3.8 models through the RunInfra gateway
 - 🔮 **[pi-zro-provider](https://github.com/monotykamary/pi-zro-provider)** - Zro provider extension for pi — GLM-5.2, Kimi K3 & DeepSeek V4 Flash through the Zro inference endpoint
 - 🪸 **[pi-coralbricks-provider](https://github.com/monotykamary/pi-coralbricks-provider)** - CoralBricks provider extension for pi — GLM 5.2/5.3, Kimi K3 & GPT-OSS 120B through Coral's OpenAI-compatible inference gateway with 1M context, synbad-validated streaming repair, and free prompt-cache reads
+-  **[pi-pareto-inference-provider](https://github.com/monotykamary/pi-pareto-inference-provider)** - Pareto Inference provider extension for pi — GLM 5.3 Flash on Pareto's own GPUs: OpenAI-compatible, key-free auto-synced catalog, verified `reasoning_effort` ladder through `max`, image input, and synbad-tested tool calling. Installable via `pi install npm:pi-pareto-inference-provider`.
 
 ### Developer Tools
 - 🧭 **[augr-chrome](https://github.com/monotykamary/augr-chrome)** — *Experiment complete* — Replaced Dia's chat with a Chrome extension: tab-aware conversations and browser tools. It succeeded, but proved less useful in real-world scenarios; I now use [browser-harness-js](https://github.com/monotykamary/browser-harness-js) almost exclusively.
