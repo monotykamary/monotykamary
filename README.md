@@ -24,6 +24,7 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
+- 🪨 **[varve](https://github.com/monotykamary/varve)** — *Experimental* — Time settles into layers. A Rust time-series database with DuckDB SQL, tiered Parquet storage, asynchronous S3 WAL/checkpoints, continuous numeric aggregates, and scheduled data lifecycles.
 - 🪡 **[heddlework](https://github.com/monotykamary/heddlework)** — *Active development* — A native, harness-neutral workspace for agent sessions, task graphs, diffs, and durable work — Pi first, Codex and Claude next.
 - 🔒 **[deepseek-harness](https://github.com/monotykamary/deepseek-harness)** — *Fork* — Privacy- and personally-focused fork of the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) agent runtime — a plugin-based agent harness on Cordis where everything is a plugin.
 - 🖥️ **[localterm](https://github.com/monotykamary/localterm)** — *Fork* — Your terminal should just be a browser tab. Every browser tab is one shell; open a tab to spawn, close it to kill. npm-installable daemon with tailnet, local HTTPS, and loopback surfaces.
