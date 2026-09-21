@@ -93,7 +93,6 @@
 - 🔧 **[pi-opencode-provider](https://github.com/monotykamary/pi-opencode-provider)** - OpenCode as a model provider for pi.
 - 🐹 **[pi-opencode-go-provider](https://github.com/monotykamary/pi-opencode-go-provider)** - OpenCode (Go) as a model provider for pi.
 - 🌙 **[pi-moonshot-provider](https://github.com/monotykamary/pi-moonshot-provider)** - Moonshot as a custom model provider for pi.
-- 🎯 **[pi-crofai-provider](https://github.com/monotykamary/pi-crofai-provider)** - Enable crof.ai as a model provider for pi.
 - 🔺 **[pi-baseten-provider](https://github.com/monotykamary/pi-baseten-provider)** - Baseten as a custom model provider for pi.
 - 🐊 **[pi-makora-provider](https://github.com/monotykamary/pi-makora-provider)** - Makora provider extension for pi — access DeepSeek V4, GLM 5.1, Kimi K2.6, Llama 3.3, Qwen 3.6, and more through the Makora inference API
 - 🔥 **[pi-fireworks-provider](https://github.com/monotykamary/pi-fireworks-provider)** - Fireworks AI as a model provider for pi.
