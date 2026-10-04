@@ -151,13 +151,29 @@
 
 ### ✅ Merged Pull Requests
 
+- [test(providers): remove incidental shell-output and sleep dependencies](https://github.com/fabric-runtime/pi-fabric/pull/209) — `fabric-runtime/pi-fabric`
+- [perf(startup): preserve registration contracts and defer entropy engines](https://github.com/fabric-runtime/pi-fabric/pull/208) — `fabric-runtime/pi-fabric`
+- [fix(ci): integrate reviewed preflight and human-wait fixes](https://github.com/fabric-runtime/pi-fabric/pull/207) — `fabric-runtime/pi-fabric`
+- [fix(runtime): project host undefined like JSON into Monty](https://github.com/fabric-runtime/pi-fabric/pull/131) — `fabric-runtime/pi-fabric`
+- [fix(test): keep Windows Monty skill extraction and temp cleanup hermetic](https://github.com/fabric-runtime/pi-fabric/pull/130) — `fabric-runtime/pi-fabric`
 - [gpui: Support in-place image updates](https://github.com/remorses/zed/pull/4) — `remorses/zed`
+- [fix(build): keep lazy imports stable across updates](https://github.com/fabric-runtime/pi-fabric/pull/108) — `fabric-runtime/pi-fabric`
+- [fix(test): normalize Windows path fixtures](https://github.com/fabric-runtime/pi-fabric/pull/109) — `fabric-runtime/pi-fabric`
 - [fix(native): deliver onClick from primary mouse-up](https://github.com/remorses/gpuix/pull/43) — `remorses/gpuix`
+- [fix(capture): rebuild catalog on re-enable; surface extension tool roster](https://github.com/fabric-runtime/pi-fabric/pull/74) — `fabric-runtime/pi-fabric`
+- [fix(runtime): pre-validate π strings refs before execution](https://github.com/fabric-runtime/pi-fabric/pull/76) — `fabric-runtime/pi-fabric`
+- [fix(deps): override ajv>fast-uri to ^3.1.6 (CVE-2026-18446)](https://github.com/fabric-runtime/pi-fabric/pull/75) — `fabric-runtime/pi-fabric`
 - [fix: support dark mode and prerelease DSH installs](https://github.com/Yan-Zero/dsh-codex/pull/2) — `Yan-Zero/dsh-codex`
+- [feat(actors): add per-session model and thinking bindings](https://github.com/fabric-runtime/pi-fabric/pull/45) — `fabric-runtime/pi-fabric`
 - [feat: bake pi agency toolchain (pi, pi-ledger, pi-tps) into runner image](https://github.com/inloopstudio-team/github-runner/pull/1) — `inloopstudio-team/github-runner`
 - [feat: hash-chained session notarization with Ed25519 seals](https://github.com/inloopstudio-team/pi-ledger/pull/1) — `inloopstudio-team/pi-ledger`
 - [fix: finish presence evidence persistence + hardening](https://github.com/parolkar/proofofpresence/pull/1) — `parolkar/proofofpresence`
 - [feat: World ID 4.0 flow + fix dead callback_phase](https://github.com/parolkar/omniauth-worldid/pull/1) — `parolkar/omniauth-worldid`
+- [perf: keep typescript/quickjs/shiki out of the eager startup graph](https://github.com/fabric-runtime/pi-fabric/pull/11) — `fabric-runtime/pi-fabric`
+- [perf: improve DeepSWE context efficiency](https://github.com/fabric-runtime/pi-fabric/pull/10) — `fabric-runtime/pi-fabric`
+<details>
+<summary>Show 219 more merged PRs</summary>
+
 - [feat: add clickable pane links and agent suggestions](https://github.com/dwarvesf/herdr-quicklook/pull/22) — `dwarvesf/herdr-quicklook`
 - [chore(deps): bump all packages to latest majors + migrate Next 16 / ESLint / TS 6 stack](https://github.com/dwarvesf/memo.d.foundation/pull/300) — `dwarvesf/memo.d.foundation`
 - [feat(neuralwatt): expose full GLM 5.2 reasoning effort scale](https://github.com/anomalyco/models.dev/pull/2645) — `anomalyco/models.dev`
@@ -171,9 +187,6 @@
 - [fix(browser-search): restore frecency function removed in #434](https://github.com/SuperCmdLabs/SuperCmd/pull/449) — `SuperCmdLabs/SuperCmd`
 - [fix(neuralwatt): update Qwen3.6 pricing to match API](https://github.com/anomalyco/models.dev/pull/1834) — `anomalyco/models.dev`
 - [fix(i18n): restore structural parity across all 9 locales](https://github.com/SuperCmdLabs/SuperCmd/pull/403) — `SuperCmdLabs/SuperCmd`
-<details>
-<summary>Show 206 more merged PRs</summary>
-
 - [fix(diff): remove uncolored gap at right edge of diff background](https://github.com/mattleong/pi-code-previews/pull/13) — `mattleong/pi-code-previews`
 - [fix: correct searchEntries arg order and add missing bashExecution normalization](https://github.com/sting8k/pi-vcc/pull/8) — `sting8k/pi-vcc`
 - [fix(neuralwatt): sync context window and output limits with upstream API](https://github.com/anomalyco/models.dev/pull/1792) — `anomalyco/models.dev`
