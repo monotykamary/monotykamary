@@ -151,6 +151,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [feat(coralbricks): add the -fast model IDs (glm-5.3-fast, deepseek-v4.1-flash-fast)](https://github.com/anomalyco/models.dev/pull/8753) — `anomalyco/models.dev`
 - [test(providers): remove incidental shell-output and sleep dependencies](https://github.com/fabric-runtime/pi-fabric/pull/209) — `fabric-runtime/pi-fabric`
 - [perf(startup): preserve registration contracts and defer entropy engines](https://github.com/fabric-runtime/pi-fabric/pull/208) — `fabric-runtime/pi-fabric`
 - [fix(ci): integrate reviewed preflight and human-wait fixes](https://github.com/fabric-runtime/pi-fabric/pull/207) — `fabric-runtime/pi-fabric`
@@ -170,10 +171,10 @@
 - [fix: finish presence evidence persistence + hardening](https://github.com/parolkar/proofofpresence/pull/1) — `parolkar/proofofpresence`
 - [feat: World ID 4.0 flow + fix dead callback_phase](https://github.com/parolkar/omniauth-worldid/pull/1) — `parolkar/omniauth-worldid`
 - [perf: keep typescript/quickjs/shiki out of the eager startup graph](https://github.com/fabric-runtime/pi-fabric/pull/11) — `fabric-runtime/pi-fabric`
-- [perf: improve DeepSWE context efficiency](https://github.com/fabric-runtime/pi-fabric/pull/10) — `fabric-runtime/pi-fabric`
 <details>
-<summary>Show 219 more merged PRs</summary>
+<summary>Show 220 more merged PRs</summary>
 
+- [perf: improve DeepSWE context efficiency](https://github.com/fabric-runtime/pi-fabric/pull/10) — `fabric-runtime/pi-fabric`
 - [feat: add clickable pane links and agent suggestions](https://github.com/dwarvesf/herdr-quicklook/pull/22) — `dwarvesf/herdr-quicklook`
 - [chore(deps): bump all packages to latest majors + migrate Next 16 / ESLint / TS 6 stack](https://github.com/dwarvesf/memo.d.foundation/pull/300) — `dwarvesf/memo.d.foundation`
 - [feat(neuralwatt): expose full GLM 5.2 reasoning effort scale](https://github.com/anomalyco/models.dev/pull/2645) — `anomalyco/models.dev`
