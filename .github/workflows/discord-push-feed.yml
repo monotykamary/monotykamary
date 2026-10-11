@@ -1,0 +1,59 @@
+name: Discord push feed
+
+on:
+  schedule:
+    - cron: "7,22,37,52 * * * *"
+  workflow_dispatch:
+    inputs:
+      since_event_id:
+        description: Replace the cursor and post every push after this event id (leave blank to keep the cursor)
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: discord-push-feed
+  cancel-in-progress: false
+
+env:
+  STATE_FILE: .discord-push-feed/last-event-id
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      # Cache entries are immutable, so every run saves a new key and the next
+      # one restores the newest entry by prefix.
+      - name: Restore cursor
+        uses: actions/cache/restore@v4
+        with:
+          path: .discord-push-feed
+          key: discord-push-feed-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: discord-push-feed-
+
+      - name: Seed cursor
+        if: inputs.since_event_id != ''
+        env:
+          SINCE_EVENT_ID: ${{ inputs.since_event_id }}
+        run: |
+          [[ "$SINCE_EVENT_ID" =~ ^[0-9]+$ ]] || { echo "::error::since_event_id must be numeric"; exit 1; }
+          mkdir -p "$(dirname "$STATE_FILE")"
+          printf '%s\n' "$SINCE_EVENT_ID" > "$STATE_FILE"
+
+      - name: Post new pushes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: bash scripts/discord-push-feed.sh
+
+      - name: Save cursor
+        if: always() && hashFiles('.discord-push-feed/last-event-id') != ''
+        uses: actions/cache/save@v4
+        with:
+          path: .discord-push-feed
+          key: discord-push-feed-${{ github.run_id }}-${{ github.run_attempt }}
