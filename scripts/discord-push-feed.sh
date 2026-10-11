@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Post one Discord embed per commit $GH_USER pushes to a public GitHub repo.
+# Post one Discord embed per commit $GH_USER pushes to a public GitHub repo
+# owned by one of $REPO_OWNERS.
 # The CI counterpart of the local push-watch.sh: it reads $GH_USER's public
 # event feed instead of local reflogs, so it only reports commits that reached
 # GitHub, and private repos never appear in that feed.
@@ -17,6 +18,9 @@ DRY_RUN=0
 if [[ "${1:-}" == "--dry-run" ]]; then DRY_RUN=1; fi
 
 GH_USER="monotykamary"
+# Pushes to anyone else's repo (a contributor's fork behind a PR, say) are
+# skipped: that work reaches these owners' repos when the PR merges.
+REPO_OWNERS=("monotykamary" "fabric-runtime")
 STATE_FILE="${STATE_FILE:-.discord-push-feed/last-event-id}"
 FEED_CAPACITY=300   # the public events API never returns more than this
 EMBED_COLOR=5763719
@@ -38,6 +42,14 @@ save_cursor() {
   (( DRY_RUN )) && return 0
   mkdir -p "$(dirname "$STATE_FILE")"
   printf '%s\n' "$1" > "$STATE_FILE"
+}
+
+is_owned() {
+  local owner="${1%%/*}" allowed
+  for allowed in "${REPO_OWNERS[@]}"; do
+    [[ "${owner,,}" == "${allowed,,}" ]] && return 0
+  done
+  return 1
 }
 
 # Railway deploy repos and inloop work stay out of the channel, as in push-watch.sh.
@@ -141,7 +153,7 @@ while IFS= read -r push; do
   repo=$(jq -r '.repo' <<<"$push")
   branch=$(jq -r '.branch' <<<"$push")
   name="${repo#*/}"
-  if ! is_excluded "$name" "$branch"; then
+  if is_owned "$repo" && ! is_excluded "$name" "$branch"; then
     remote="https://github.com/$repo"
     while IFS= read -r commit; do
       [[ -n "$commit" ]] || continue
