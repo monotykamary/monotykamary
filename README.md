@@ -138,6 +138,7 @@
 
 ### 🔓 Open Pull Requests
 
+- [docs: document options.setCacheKey for OpenAI-compatible providers](https://github.com/Kilo-Org/kilocode/pull/15169) — `Kilo-Org/kilocode`
 - [fix(coralbricks): list each model once, under its -fast ID](https://github.com/anomalyco/models.dev/pull/9744) — `anomalyco/models.dev`
 - [feat(native): add direct image pixel updates](https://github.com/remorses/gpuix/pull/62) — `remorses/gpuix`
 - [feat(native): expose native integration snapshots](https://github.com/remorses/gpuix/pull/61) — `remorses/gpuix`
