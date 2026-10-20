@@ -159,6 +159,7 @@
 - [test(providers): remove incidental shell-output and sleep dependencies](https://github.com/fabric-runtime/pi-fabric/pull/209) — `fabric-runtime/pi-fabric`
 - [perf(startup): preserve registration contracts and defer entropy engines](https://github.com/fabric-runtime/pi-fabric/pull/208) — `fabric-runtime/pi-fabric`
 - [fix(ci): integrate reviewed preflight and human-wait fixes](https://github.com/fabric-runtime/pi-fabric/pull/207) — `fabric-runtime/pi-fabric`
+- [feat(provider): add opt-in Responses API and settings](https://github.com/Coral-Bricks-AI/pi-coralbricks-provider/pull/11) — `Coral-Bricks-AI/pi-coralbricks-provider`
 - [fix(runtime): project host undefined like JSON into Monty](https://github.com/fabric-runtime/pi-fabric/pull/131) — `fabric-runtime/pi-fabric`
 - [fix(test): keep Windows Monty skill extraction and temp cleanup hermetic](https://github.com/fabric-runtime/pi-fabric/pull/130) — `fabric-runtime/pi-fabric`
 - [gpui: Support in-place image updates](https://github.com/remorses/zed/pull/4) — `remorses/zed`
@@ -173,10 +174,10 @@
 - [feat: bake pi agency toolchain (pi, pi-ledger, pi-tps) into runner image](https://github.com/inloopstudio-team/github-runner/pull/1) — `inloopstudio-team/github-runner`
 - [feat: hash-chained session notarization with Ed25519 seals](https://github.com/inloopstudio-team/pi-ledger/pull/1) — `inloopstudio-team/pi-ledger`
 - [fix: finish presence evidence persistence + hardening](https://github.com/parolkar/proofofpresence/pull/1) — `parolkar/proofofpresence`
-- [feat: World ID 4.0 flow + fix dead callback_phase](https://github.com/parolkar/omniauth-worldid/pull/1) — `parolkar/omniauth-worldid`
 <details>
-<summary>Show 221 more merged PRs</summary>
+<summary>Show 222 more merged PRs</summary>
 
+- [feat: World ID 4.0 flow + fix dead callback_phase](https://github.com/parolkar/omniauth-worldid/pull/1) — `parolkar/omniauth-worldid`
 - [perf: keep typescript/quickjs/shiki out of the eager startup graph](https://github.com/fabric-runtime/pi-fabric/pull/11) — `fabric-runtime/pi-fabric`
 - [perf: improve DeepSWE context efficiency](https://github.com/fabric-runtime/pi-fabric/pull/10) — `fabric-runtime/pi-fabric`
 - [feat: add clickable pane links and agent suggestions](https://github.com/dwarvesf/herdr-quicklook/pull/22) — `dwarvesf/herdr-quicklook`
