@@ -24,6 +24,7 @@
 ### Standalone Projects
 *Independent tools and frameworks I've built.*
 
+- ⚖️ **[gdp-wired](https://github.com/monotykamary/gdp-wired)** — *Active development* — An automatic prover for stateful rules: budgets, caps, rate limits, workflows and access policies in TypeScript. You write the rule and its laws; it proves them with no proof to write, shows a run that breaks a false one, has every proof checked again in Lean, and ships the rule as JavaScript. Site: [gdpwired.dev](https://gdpwired.dev). Installable via `npm i gdp-wired`, with an agent skill.
 - 🪢 **[jev-fabric](https://github.com/monotykamary/jev-fabric)** — *Experimental* — Native process orchestration with typed, explicit Jev decisions, written in Bend. One executable owns your processes and bounded logs and asks Jev only when told — fast enough to race Wikipedia and play Doom. Installable via curl, with an agent skill.
 - 🪨 **[varve](https://github.com/monotykamary/varve)** — *Experimental* — Time settles into layers. A Rust time-series database with DuckDB SQL, tiered Parquet storage, asynchronous S3 WAL/checkpoints, continuous numeric aggregates, and scheduled data lifecycles.
 - 🪡 **[heddlework](https://github.com/monotykamary/heddlework)** — *Active development* — A native, harness-neutral workspace for agent sessions, task graphs, diffs, and durable work — Pi first, Codex and Claude next.
