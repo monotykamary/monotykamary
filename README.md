@@ -154,6 +154,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [test(agents): give the offline worker install suite a Windows-sized budget](https://github.com/fabric-runtime/pi-fabric/pull/304) — `fabric-runtime/pi-fabric`
 - [feat: add canonical WebMCP integration demo](https://github.com/sneharavindra/static-demo-pages/pull/1) — `sneharavindra/static-demo-pages`
 - [feat(coralbricks): add the -fast model IDs (glm-5.3-fast, deepseek-v4.1-flash-fast)](https://github.com/anomalyco/models.dev/pull/8753) — `anomalyco/models.dev`
 - [test(providers): remove incidental shell-output and sleep dependencies](https://github.com/fabric-runtime/pi-fabric/pull/209) — `fabric-runtime/pi-fabric`
@@ -173,10 +174,10 @@
 - [feat(actors): add per-session model and thinking bindings](https://github.com/fabric-runtime/pi-fabric/pull/45) — `fabric-runtime/pi-fabric`
 - [feat: bake pi agency toolchain (pi, pi-ledger, pi-tps) into runner image](https://github.com/inloopstudio-team/github-runner/pull/1) — `inloopstudio-team/github-runner`
 - [feat: hash-chained session notarization with Ed25519 seals](https://github.com/inloopstudio-team/pi-ledger/pull/1) — `inloopstudio-team/pi-ledger`
-- [fix: finish presence evidence persistence + hardening](https://github.com/parolkar/proofofpresence/pull/1) — `parolkar/proofofpresence`
 <details>
-<summary>Show 222 more merged PRs</summary>
+<summary>Show 223 more merged PRs</summary>
 
+- [fix: finish presence evidence persistence + hardening](https://github.com/parolkar/proofofpresence/pull/1) — `parolkar/proofofpresence`
 - [feat: World ID 4.0 flow + fix dead callback_phase](https://github.com/parolkar/omniauth-worldid/pull/1) — `parolkar/omniauth-worldid`
 - [perf: keep typescript/quickjs/shiki out of the eager startup graph](https://github.com/fabric-runtime/pi-fabric/pull/11) — `fabric-runtime/pi-fabric`
 - [perf: improve DeepSWE context efficiency](https://github.com/fabric-runtime/pi-fabric/pull/10) — `fabric-runtime/pi-fabric`
