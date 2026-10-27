@@ -139,6 +139,7 @@
 
 ### 🔓 Open Pull Requests
 
+- [feat(proofs): migrate verification to gdp-wired](https://github.com/fabric-runtime/pi-fovea/pull/10) — `fabric-runtime/pi-fovea`
 - [feat(llm): add Coral Bricks Inference as a verified provider](https://github.com/OpenHands/software-agent-sdk/pull/6063) — `OpenHands/software-agent-sdk`
 - [docs: document options.setCacheKey for OpenAI-compatible providers](https://github.com/Kilo-Org/kilocode/pull/15169) — `Kilo-Org/kilocode`
 - [feat(native): add direct image pixel updates](https://github.com/remorses/gpuix/pull/62) — `remorses/gpuix`
