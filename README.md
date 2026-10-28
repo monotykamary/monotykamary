@@ -139,7 +139,7 @@
 
 ### 🔓 Open Pull Requests
 
-- [feat(proofs): migrate verification to gdp-wired](https://github.com/fabric-runtime/pi-fovea/pull/10) — `fabric-runtime/pi-fovea`
+- [fix: replay history for zero-retention Responses accounts](https://github.com/Coral-Bricks-AI/goby/pull/3) — `Coral-Bricks-AI/goby`
 - [feat(llm): add Coral Bricks Inference as a verified provider](https://github.com/OpenHands/software-agent-sdk/pull/6063) — `OpenHands/software-agent-sdk`
 - [docs: document options.setCacheKey for OpenAI-compatible providers](https://github.com/Kilo-Org/kilocode/pull/15169) — `Kilo-Org/kilocode`
 - [feat(native): add direct image pixel updates](https://github.com/remorses/gpuix/pull/62) — `remorses/gpuix`
@@ -155,6 +155,10 @@
 
 ### ✅ Merged Pull Requests
 
+- [fix(proofs): include all checked policy sources](https://github.com/fabric-runtime/pi-contour/pull/2) — `fabric-runtime/pi-contour`
+- [feat(proofs): execute checked policies and release 0.5.0](https://github.com/fabric-runtime/pi-contour/pull/1) — `fabric-runtime/pi-contour`
+- [feat(proofs): migrate verification to gdp-wired](https://github.com/fabric-runtime/pi-fovea/pull/10) — `fabric-runtime/pi-fovea`
+- [feat: port Goby to TypeScript with gdp-wired review policies](https://github.com/Coral-Bricks-AI/goby/pull/2) — `Coral-Bricks-AI/goby`
 - [chore(deps): bump gdp-wired to 0.30.1](https://github.com/fabric-runtime/pi-fabric/pull/307) — `fabric-runtime/pi-fabric`
 - [test(agents): give the offline worker install suite a Windows-sized budget](https://github.com/fabric-runtime/pi-fabric/pull/304) — `fabric-runtime/pi-fabric`
 - [feat: add canonical WebMCP integration demo](https://github.com/sneharavindra/static-demo-pages/pull/1) — `sneharavindra/static-demo-pages`
@@ -171,13 +175,13 @@
 - [fix(native): deliver onClick from primary mouse-up](https://github.com/remorses/gpuix/pull/43) — `remorses/gpuix`
 - [fix(capture): rebuild catalog on re-enable; surface extension tool roster](https://github.com/fabric-runtime/pi-fabric/pull/74) — `fabric-runtime/pi-fabric`
 - [fix(runtime): pre-validate π strings refs before execution](https://github.com/fabric-runtime/pi-fabric/pull/76) — `fabric-runtime/pi-fabric`
+<details>
+<summary>Show 228 more merged PRs</summary>
+
 - [fix(deps): override ajv>fast-uri to ^3.1.6 (CVE-2026-18446)](https://github.com/fabric-runtime/pi-fabric/pull/75) — `fabric-runtime/pi-fabric`
 - [fix: support dark mode and prerelease DSH installs](https://github.com/Yan-Zero/dsh-codex/pull/2) — `Yan-Zero/dsh-codex`
 - [feat(actors): add per-session model and thinking bindings](https://github.com/fabric-runtime/pi-fabric/pull/45) — `fabric-runtime/pi-fabric`
 - [feat: bake pi agency toolchain (pi, pi-ledger, pi-tps) into runner image](https://github.com/inloopstudio-team/github-runner/pull/1) — `inloopstudio-team/github-runner`
-<details>
-<summary>Show 224 more merged PRs</summary>
-
 - [feat: hash-chained session notarization with Ed25519 seals](https://github.com/inloopstudio-team/pi-ledger/pull/1) — `inloopstudio-team/pi-ledger`
 - [fix: finish presence evidence persistence + hardening](https://github.com/parolkar/proofofpresence/pull/1) — `parolkar/proofofpresence`
 - [feat: World ID 4.0 flow + fix dead callback_phase](https://github.com/parolkar/omniauth-worldid/pull/1) — `parolkar/omniauth-worldid`
