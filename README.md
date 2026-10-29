@@ -155,6 +155,11 @@
 
 ### ✅ Merged Pull Requests
 
+- [chore(release): 0.129.2](https://github.com/fabric-runtime/pi-fabric/pull/356) — `fabric-runtime/pi-fabric`
+- [chore(deps): bump gdp-wired to 0.31.1](https://github.com/fabric-runtime/pi-fabric/pull/348) — `fabric-runtime/pi-fabric`
+- [perf(mesh): reduce polling and bounded-read cloning costs](https://github.com/fabric-runtime/pi-fabric/pull/345) — `fabric-runtime/pi-fabric`
+- [perf: skip redundant hydration on cached reviews](https://github.com/fabric-runtime/pi-contour/pull/3) — `fabric-runtime/pi-contour`
+- [feat: integrate durable execution and participant improvements](https://github.com/fabric-runtime/pi-fabric/pull/344) — `fabric-runtime/pi-fabric`
 - [fix(proofs): include all checked policy sources](https://github.com/fabric-runtime/pi-contour/pull/2) — `fabric-runtime/pi-contour`
 - [feat(proofs): execute checked policies and release 0.5.0](https://github.com/fabric-runtime/pi-contour/pull/1) — `fabric-runtime/pi-contour`
 - [feat(proofs): migrate verification to gdp-wired](https://github.com/fabric-runtime/pi-fovea/pull/10) — `fabric-runtime/pi-fovea`
@@ -170,14 +175,14 @@
 - [fix(runtime): project host undefined like JSON into Monty](https://github.com/fabric-runtime/pi-fabric/pull/131) — `fabric-runtime/pi-fabric`
 - [fix(test): keep Windows Monty skill extraction and temp cleanup hermetic](https://github.com/fabric-runtime/pi-fabric/pull/130) — `fabric-runtime/pi-fabric`
 - [gpui: Support in-place image updates](https://github.com/remorses/zed/pull/4) — `remorses/zed`
+<details>
+<summary>Show 233 more merged PRs</summary>
+
 - [fix(build): keep lazy imports stable across updates](https://github.com/fabric-runtime/pi-fabric/pull/108) — `fabric-runtime/pi-fabric`
 - [fix(test): normalize Windows path fixtures](https://github.com/fabric-runtime/pi-fabric/pull/109) — `fabric-runtime/pi-fabric`
 - [fix(native): deliver onClick from primary mouse-up](https://github.com/remorses/gpuix/pull/43) — `remorses/gpuix`
 - [fix(capture): rebuild catalog on re-enable; surface extension tool roster](https://github.com/fabric-runtime/pi-fabric/pull/74) — `fabric-runtime/pi-fabric`
 - [fix(runtime): pre-validate π strings refs before execution](https://github.com/fabric-runtime/pi-fabric/pull/76) — `fabric-runtime/pi-fabric`
-<details>
-<summary>Show 228 more merged PRs</summary>
-
 - [fix(deps): override ajv>fast-uri to ^3.1.6 (CVE-2026-18446)](https://github.com/fabric-runtime/pi-fabric/pull/75) — `fabric-runtime/pi-fabric`
 - [fix: support dark mode and prerelease DSH installs](https://github.com/Yan-Zero/dsh-codex/pull/2) — `Yan-Zero/dsh-codex`
 - [feat(actors): add per-session model and thinking bindings](https://github.com/fabric-runtime/pi-fabric/pull/45) — `fabric-runtime/pi-fabric`
