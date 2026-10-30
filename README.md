@@ -155,6 +155,7 @@
 
 ### ✅ Merged Pull Requests
 
+- [feat: integrate reviewed runtime reliability and UI fixes](https://github.com/fabric-runtime/pi-fabric/pull/357) — `fabric-runtime/pi-fabric`
 - [chore(release): 0.129.2](https://github.com/fabric-runtime/pi-fabric/pull/356) — `fabric-runtime/pi-fabric`
 - [chore(deps): bump gdp-wired to 0.31.1](https://github.com/fabric-runtime/pi-fabric/pull/348) — `fabric-runtime/pi-fabric`
 - [perf(mesh): reduce polling and bounded-read cloning costs](https://github.com/fabric-runtime/pi-fabric/pull/345) — `fabric-runtime/pi-fabric`
@@ -174,10 +175,10 @@
 - [feat(provider): add opt-in Responses API and settings](https://github.com/Coral-Bricks-AI/pi-coralbricks-provider/pull/11) — `Coral-Bricks-AI/pi-coralbricks-provider`
 - [fix(runtime): project host undefined like JSON into Monty](https://github.com/fabric-runtime/pi-fabric/pull/131) — `fabric-runtime/pi-fabric`
 - [fix(test): keep Windows Monty skill extraction and temp cleanup hermetic](https://github.com/fabric-runtime/pi-fabric/pull/130) — `fabric-runtime/pi-fabric`
-- [gpui: Support in-place image updates](https://github.com/remorses/zed/pull/4) — `remorses/zed`
 <details>
-<summary>Show 233 more merged PRs</summary>
+<summary>Show 234 more merged PRs</summary>
 
+- [gpui: Support in-place image updates](https://github.com/remorses/zed/pull/4) — `remorses/zed`
 - [fix(build): keep lazy imports stable across updates](https://github.com/fabric-runtime/pi-fabric/pull/108) — `fabric-runtime/pi-fabric`
 - [fix(test): normalize Windows path fixtures](https://github.com/fabric-runtime/pi-fabric/pull/109) — `fabric-runtime/pi-fabric`
 - [fix(native): deliver onClick from primary mouse-up](https://github.com/remorses/gpuix/pull/43) — `remorses/gpuix`
