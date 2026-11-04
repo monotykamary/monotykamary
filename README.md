@@ -139,7 +139,6 @@
 
 ### 🔓 Open Pull Requests
 
-- [fix: replay history for zero-retention Responses accounts](https://github.com/Coral-Bricks-AI/goby/pull/3) — `Coral-Bricks-AI/goby`
 - [feat(llm): add Coral Bricks Inference as a verified provider](https://github.com/OpenHands/software-agent-sdk/pull/6063) — `OpenHands/software-agent-sdk`
 - [docs: document options.setCacheKey for OpenAI-compatible providers](https://github.com/Kilo-Org/kilocode/pull/15169) — `Kilo-Org/kilocode`
 - [feat(native): add direct image pixel updates](https://github.com/remorses/gpuix/pull/62) — `remorses/gpuix`
